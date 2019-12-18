@@ -110,8 +110,9 @@ catkin_package(
 ###########
 
 if(NOT EXISTS "${PROJECT_SOURCE_DIR}/openccg/lib/openccg.jar")
-  #execute_process(COMMAND bash -c "cd ${PROJECT_SOURCE_DIR} && wget -O openccg-0.9.5.tgz https://sourceforge.net/projects/openccg/files/latest/download")
-  #execute_process(COMMAND bash -c "cd ${PROJECT_SOURCE_DIR} && tar -xvf openccg-0.9.5.tgz openccg/lib && rm openccg-0.9.5.tgz")
+  execute_process(COMMAND bash -c "cd ${PROJECT_SOURCE_DIR} && wget -O openccg-0.9.5.tgz https://sourceforge.net/projects/openccg/files/latest/download")
+  execute_process(COMMAND bash -c "cd ${PROJECT_SOURCE_DIR} && tar -xvf openccg-0.9.5.tgz openccg/lib && rm openccg-0.9.5.tgz")
+  execute_process(COMMAND bash -c "cd ${PROJECT_SOURCE_DIR}/openccg && JAVA_HOME=$(whereis -b javac | awk '{print $2}' | xargs dirname | xargs dirname) OPENCCG_HOME=$PWD PATH=$PATH:$PWD/bin ccg-build")
 endif(NOT EXISTS "${PROJECT_SOURCE_DIR}/openccg/lib/openccg.jar")
 
 ## Specify additional locations of header files
