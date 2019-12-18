@@ -1,0 +1,2571 @@
+Starcraft II: Wings of Liberty Units Guide (Version 1.4)
+Author: dinokiller14 (of the many dinos)
+E-Mail: mingcheemalcolmlok_1994_3d@hotmail.com
+------------------------------------------------------------------------------
+1. Table of Content
+------------------------------------------------------------------------------
+1) Table of Content
+
+2) Introduction
+
+3) Latest Update
+
+4) Terran
+
+5) Protoss
+
+6) Zerg
+
+7) Q&A 
+
+8) Contact
+
+9) Credits
+==============================================================================
+
+
+This guide is written by me for the sole purpose of helping other gamers.
+If GameFaq charges money just to read my guide, this guide must be removed
+from GameFaq.Com
+
+Some Do's and Don'ts to keep in mind.
+
+Do:
+1. Mail me about your own idea of this guide.
+
+2. Mail me about grammar mistakes.
+
+3. Print this guide for personal use.
+
+4. Tell other people about this guide.
+
+Don't:
+1. Sell this guide for profit.
+
+2. Copy this guide and post it somewhere else without my permission.
+
+3. Tell me about how much this guide sucks. (IDC if you do better)
+
+
+
+For now, the current sites that are allowed to host this guide is:
+
+Gamefaq.com
+
+------------------------------------------------------------------------------
+2. Introduction
+------------------------------------------------------------------------------
+You played the multiplayer mode.
+At some times you get overwhelmed by a mass of the same units.
+Or you get totally destroyed by a certain unit which you think is overpowered.
+You panic, not knowing what to do and sometimes even go so far to rage quit.
+Fear not as this guide will list all units in multiplayer and the strategies,
+to completely destroy a certain unit you have trouble with.
+
+Note that I don't include buildings since they are... well buildings.
+Of course that is unless the building has a weapon like the photon cannon.
+But even so, I only list them to as a counter strategy.
+And also I won't include Single Player only units since if you ever get to use
+that particular unit, the game will include enough tutorial about that unit.
+And lastly, I don't even bother with attack upgrades.
+It gives attack upgrades, big deal but everyone knows how it works right?
+
+The statistic I put with the unit will look like this:
+
+====
+Name
+====
+Supply cost: The amount of supply this unit uses.
+Prerequisite: Requirements (excluding the building used to train.)
+Train from: Buildings used to train this unit.
+Type: The type of the unit.
+HP: The hp the unit has.
+Weapon name and damage: The name of the weapon and the damage it causes.
+Bonus Damage: Extra damage on a certain type of unit.
+Range: Range of the weapon.
+Target: What kind of target it can hit.
+Fire Speed: The speed depends how fast an unit attacks. Lower = faster
+Move Speed: The moving speed. Higher = faster
+Armor: The armor of the unit.
+Cost: The unit cost.
+Build Speed: The time it requires to build the unit in ingame seconds.
+Special Abilities: The Special abilities this unit has access to.
+Upgrades: Shows what kind of upgrades affect this unit.
+Counter as zerg: Which unit counters this unit as zerg.
+Counter as Terran: Which unit counters this unit as terran.
+Counter as Protoss: Which unit counter this unit as protoss.
+
+Of course you don't have to read the whole guide. Just press Ctrl + F and type
+the name of your unit you want to search.
+And if you see things like this: (110) then it means it takes
+110 seconds to research. If it has no numbers behind, then it means you don't
+have to research for it.
+
+Also, there are 4 things that may appear at skills section at units.
+(Passive) = Is automatically activated
+(Channeled) = The unit is immobile while using this skill.
+(Auto) = This skill can be set to auto use by right clicking.
+(Sacrifice) = Units are sacrificed and/or morphed into different units.
+
+------------------------------------------------------------------------------
+3. Latest Update
+------------------------------------------------------------------------------
+Didn't feel like keeping all this logs, so i'm bringing up the latest update.
+Also, I will refer the update numbers to the current patch from now on.
+
+
+------------------------------------------------------------------------------
+4. Terran
+------------------------------------------------------------------------------
+Terran are the humans in the late 2500 or so with space equipment and gear.
+They are extremely versatile, enabling to counter anything if played properly.
+The cost isn't as high as the protoss but it isn't lower then the zerg.
+The terrans use supply depots to increase their supplies.
+Somehow, protoss players (and me) argues about Terran being overpowered.
+
+For Ctrl + F option, type t[unit name]
+For example if you want to search for a Marine, type [tMarine]
+
+------------
+Ground Units
+------------
+=====
+ SCV                                                            [tSCV]
+=====
+Supply cost: 1
+Prerequisite: Command Center
+Train from: Command Center
+Type: Light, Mech, Biological
+HP: 45
+
+Fusion Cutter: 5
+Bonus Damage: None
+Fire Speed: 1.5
+Range: Melee
+Target: Ground
+
+Move Speed: 2.81
+Armor: 0
+Cost: 50
+Build Speed: 17 
+Special Abilities: Repair: Repair any Terran buildings or mechanical
+                   units(protoss units too!) at the cost of some resources.
+                   (Auto)
+
+                   Gather: It gathers minerals and gas from refineries.
+
+                   Build: The SCV can build structures.
+                   While building, the scv can't be controlled unless
+                   the building is canceled or the building is done.
+Upgrades: None
+Counter as zerg: No strategy needed right? Just destroy them.
+Counter as Terran: Same as zerg
+Counter as Protoss: Same as Terran :)
+
+
+
+
+======
+Marine                                                          [tMarine]
+======
+Supply cost: 1
+Prerequisite: Barrack
+Train from: Barrack
+Type: Light, Biological
+HP: 45
+
+C-14 Gauss Rifle: 6
+Bonus Damage: None
+Fire speed: 0.86 - 0.29 (Stimpack)
+Range: 5
+Target: Ground and Air
+
+Move speed: 2.25 + 1.12 (Stimpack)
+Armor: 0
+Cost: 50 Minerals
+Build Speed: 25
+Special Abilities: Stimpack: Move and Fire speed up at cost of 10 HP.
+                   Research at Tech Lab. 100 minerals 100 gas. (170)
+
+Upgrades: Combat Shield: All marines gets 10+ max HP. (110) 
+          Upgrade at Tech Lab.
+Counter as Zerg:
+1. Ultralisk: You have a dumb opponent that never attacks, but only masses
+   marines? The ultralisk will teach them a lesson.
+
+2. Roach: Defeats marines with ease.
+
+3. Hydralisk: Also defeats marines with ease, but has lower health then roach.
+
+4. Baneling: Instantly kills a marine with a kamikaze.
+   The problem is, most of the time, they are killed before they
+   reach their target. If you notice your opponent doesn't have any detectors
+   you can always burrow and pop up right under them dealing alot of damage.
+
+Counter as Terran:
+1. Siege tank: Siege tank in siege mode does 35 damage + splash.
+   1 shot will nearly kill several marines who likes to clump together.
+   And another fact is, the tank outrange the marine.
+
+2. Hellions: The anti infantry mech of terran. Abuse them against peoples
+   who only masses basic infantry.
+   With 24 damage after the upgrade, you 2 hit them.
+   It also affects the whole row since its fire so you can kill multiple
+   marines with this too.
+
+3. Reaper: Also kills all Light Armored units. Unit is too expensive and
+   underpowered later though.
+
+4. Ghost: For just 25 energy, you instantly kill a marine with a snipe.
+
+Counter as Protoss:
+1. Colossus: Colossus owns most of the ground units in the game.
+   With upgraded Laser, you can even kite those marines around.
+
+2. High Templar: Storm them and you can relax while you watch them die.
+
+3. Dark Templar: They 1 hit those marines and are cloaked, so why not?
+
+4. Archon: Deals 35 to marines + splash so why not?
+   Don't get EMP'ed though.
+
+5. Zealot: Somehow effective against Marines.
+
+6. Sentry: Helps to lessen damage, don't use them alone though.
+
+
+======
+Reaper                                                          [tReaper]
+======
+Supply cost: 1
+Prerequisite: Barrack with attached Tech Lab
+Train from: Barrack
+Type: Light, Biological
+HP: 50
+P-45 Gauss Pistol: 4X2
+Bonus Damage: 9X2 against Light
+Fire speed: 1.1
+Range: 4.5
+Target: Ground
+
+D-8 Charge: 30 (Only on buildings)
+Fire Speed: 1.8
+Range: 5
+Target: Ground
+
+Move Speed: 2.95 + 0.89 (Nitro Booster)
+Armor: 0
+Cost: 50 minerals 50 gas
+Build Speed: 45
+Special Abilities: Jet Pack: Enables you to jump up and down cliffs.(Passive)
+
+Upgrades: Nitro Booster: Increases all reapers speed.
+          Upgrade at tech lab. 50 minerals 50 gas.(100)
+          Factory required.
+
+Counter as zerg: 
+1. Roach: Destroys them pretty quickly while they do a crappy 8 damage.
+
+2. Baneling: With alot of banelings, you can make short work of them
+   if you chase them down.
+
+3. Zergling: With speed upgraded, you can actually chase them down and
+   overwhelm them since you always get more zerglings and
+   its faster to produce.
+
+4. Brood Lord: Eliminates a reaper immediately with his 2 shots.
+   Brood Lords are late game and not many people use reapers this late.
+   #4 for this reason.
+
+Counter as Terran: 
+1. Siege tank: A sieged tank will nearly kill any reapers.
+
+2. Marauder: Marauders are armored so they suffer no damage bonus from reapers.
+   Marauders has alot of hp too.
+
+3. Viking: They can defeat those reapers with ease actually in Assault Mode.
+
+4. Banshee: 24 damage + they fly so I think you know why.
+   Late game though.
+
+Counter as Protoss: 
+1. Colossus: Owns them in 2 hits, nuff said.
+
+2. Stalker: Good for pesky early rushes.
+
+3. Photon cannon: 2 well placed cannons can protect you from reaper rush.
+
+
+
+========
+Marauder                                                        [tMarauder]
+========
+Supply cost: 2
+Prerequisite: Barrack with attached Tech Lab
+Train from: Barrack
+Type: Armored, Biological
+HP: 125
+
+Punisher Grenades: 10
+Bonus Damage: 20 against Armored
+Fire Speed: 1.5 - 0.5 (Stimpack)
+Range: 6
+Target: Ground
+
+Move Speed: 2.25 + 1.12 (Stimpack)
+Armor: 1
+Cost: 100 minerals 25 gas
+Build Speed: 30
+Special Abilities: Concussive Shells: Enemies shot will be temporarily slowed.
+                   Massive units are immune.(Passive) Research at tech lab.
+                   50 minerals and 50 gas (60)
+
+                   Stimpack: Move and Fire speed up at cost of 20 HP.
+                   Research at Tech Lab. 100 minerals 100 gas. (170)
+Upgrades: None
+Counter as zerg: 
+1. Zergling: Since none of the Marauder's damage bonuses applies on zerglings,
+             Alot of zerglings can overwhelm them.
+
+2. Mutalisk: Free hits :)
+
+3. Hydralisk: Again with a big group, they can overwhelm marauders.
+
+Counter as Terran: 
+1. Marine: Mass marine always beats mass marauders.
+
+2. Banshee: Flying around while getting free kills on those helpless marauders
+
+3. Marauders: Make more then your opponent does and upgrade them.
+   Thats another option.
+
+Counter as Protoss: 
+1. Immortal: They 3 shots those marauders while they do 10 damage on immortals
+   Immortals rate of fire is also faster.
+
+2. Void Ray: Again like all other air units, free kills.
+
+3. High Templar: A storm will weaken the marauders by alot,
+   abuse storm against terran MMM noobs.
+
+4. Dark Templar: They do 45 + cloak so its perfect against marauders.
+   Well... unless they have detectors.
+
+5. Zealot: Zealots works fine against Marauders too.
+
+
+=====
+Ghost                                                           [tGhost]
+=====
+Supply cost: 2
+Prerequisite: Barrack with attached Tech Lab, Ghost Academy
+Train from: Barrack
+Type: No Armor, Biological, Psionic
+HP: 100
+Energy Max: 200
+
+C-10 Canister Rifle: 10
+Bonus Damage: 20 against Light
+Fire Speed: 1.5
+Range: 6
+Target: Ground and Air
+
+Nuclear Strike: 300
+Bonus Damage: 500 against structures.
+
+Target: Ground and Air
+
+Move Speed: 2.25
+Armor: 0
+Cost: 200 minerals 100 gas
+Build Speed: 40
+Special Abilities: Cloak: Cloak renders the ghost invisible.
+                   Cannot be attacked unless detected.
+                   Cost 25 energy to use and it continually
+                   drains energy if it stays activated.
+                   Research at ghost academy. 150 minerals 150 gas (120)
+
+                   Snipe: Snipes an enemy, dealing 45 damage, ignoring armor.
+                   Uses 25 energy. Can only target biological units.
+
+                   EMP Round: Fires an EMP shockwave that does
+                   100 damage to shields and energy.
+                   Cloaked units will be revealed for a short time.
+                   Uses 75 energy.
+
+                   Nuclear Strike: Point a location for a nuke to hit.
+                   The ghost pointing the target won't be able to move and if
+                   the ghost dies or cancels while the nuke launched, the nuke
+                   will be wasted. The nuke will land after 20 seconds.
+                   It requires you to arm a ghost academy with a nuke.
+                   (Channeled)
+                   100 minerals 100 gas. (60)
+
+Upgrades: Moebius Reactor: Increase the starting energy of a ghost by 25.
+          Research at Ghost Academy. 100 minerals 100 gas. (80)
+Counter as zerg: 
+1. Overseer: It detects, nuff said.
+
+2. Roach: It owns all infantries except armored
+   and of course you should get roaches.
+
+3. Zergling: Overwhelm the ghost with zerglings and he will die.
+
+4. Drones: If the ghost tries to nuke you while he either is
+   detected or not cloaked, charge him with all your workers and he will die.
+
+Counter as Terran: 
+1. Raven: It detects, nuff said.
+
+2. Siege Tank: Supported with detection, it destroys the ghost in 3 shots.
+
+3. Ghost: The first one to fire the EMP round wins.
+          After that, just cloak and shoot or spam snipe.
+
+4. SCV: Same strategy as the Drones.
+
+
+Counter as Protoss: 
+1. Photon Cannon: It detects and it CAN kill the ghost! Its like 2 in 1.
+
+2. Observer: It detects, nuff said
+
+3. Stalker: Ghosts do minimal damage to armored, so the Stalker works.
+
+4. Colossus: Kills a ghost in 3 attacks
+
+5. Probes: Same strategy as the Drones.
+
+=======
+Hellion                                                         [tHellion]
+=======
+Supply cost: 2
+Prerequisite: Factory
+Train from: Factory
+Type: Light, Mech
+HP: 90
+
+Infernal Flamethrower: 8
+Bonus Damage: 14 against Light (19 with Infernal Pre-Lighter)
+Fire Speed: 2.5
+Range: 5
+Target: Ground
+
+Move Speed: 4.25
+Armor: 0
+Cost: 100 minerals
+Build Speed: 30
+Special Abilities: None
+Upgrades: Infernal Pre-Lighter: Gives another 5+ attack boost against Light.
+          Upgrade at Tech Lab. 150 minerals 150 gas. (110)
+
+Counter as zerg: 
+1. Roach: Roaches can defeat multiple Hellions easily.
+
+2. Spine Crawler: Hellions won't do much damage at all on buildings.
+
+Counter as Terran: 
+1. Thor: Destroys a Hellion with 2 attacks, and you need ALOT of
+   hellions to take out a Thor.
+
+2. Siege Tank: Destroys Hellions easily too, in both modes.
+
+3. Marauders: They are armored, so Hellions won't do bonus damage on them.
+
+4. Reapers: Reapers may be Light, but Hellions are also Light!
+   They will do bonus damage on each other, but the reapers will win.
+
+
+Counter as Protoss: 
+1. Stalker: Easy way to get rid of them in the beginning.
+
+2. Colossus: Excellent against Hellions but not many people use
+   Hellions late game, especially against protoss.
+
+3. Dark Templar: A good strategy if your opponent doesn't have any detectors
+   otherwise, don't bother with it.
+
+==========
+Siege Tank                                                      [tSiege Tank]
+==========
+Supply cost: 3
+Prerequisite: Factory with attached Tech Lab
+Train from: Factory
+Type: Armored, Mech
+HP: 160
+
+90MM Cannon: 15
+Bonus Damage: 25 against Armored
+Fire Speed: 1.04
+Range: 7
+
+Crucio Shock Cannon: 35 (Siege mode)
+Bonus Damage: 50 against armored
+Fire Speed: 3
+Range: 13
+Target: Ground
+
+Move Speed: 2.25
+Armor: 1
+Cost: 150 minerals 125 gas
+Build Speed: 45
+Special Abilities: Siege Mode: Turns the siege tank into siege mode.
+                   In siege mode, the tank has increased power and range, but
+                   cannot move and it cannot fire targets that are too close.
+                   Research at Tech Lab. 100 minerals 100 gas. (80)
+Upgrades: None
+Counter as zerg: 
+1. Mutalisk: They hit tanks pretty easy and they can't be hit by the tank.
+
+2. Brood Lords: Even better then the mutalisk.
+
+Counter as Terran: 
+1. Banshee: The safest way to dominate Siege Tanks.
+
+2. Thor: With Thor, you can just tank all the damage and destroy them.
+
+3. Viking: Just switch to Assault mode near them while they are sieged
+   and you get free shots while he wastes his time unsieging.
+
+4. Battlecruiser: Destroys the tanks in seconds, but its incredible tech heavy
+
+Counter as Protoss: 
+1. Immortal: With the Shield, the tanks only do 10 damage on them while
+   the immortal does 50 DAMAGE on the tanks.
+
+2. Void ray: Safe way to dominate Tanks.
+
+3. Phoenix: You can Graviton the tanks and take them down with a group.
+
+4. Dark Templar: Another strategy if the opponent does't have any detectors.
+   If they do have detectors, the tanks are untouchable by Dark Templars.
+
+5. Carrier: Destroys those tanks in seconds, but tech heavy.
+
+======
+ Thor                                                           [tThor]
+======
+Supply cost: 6
+Prerequisite: Factory with attached Tech Lab, Armory
+Train from: Factory
+Type: Armored, Mech, Massive
+HP: 400
+
+Thor's Hammer: 30x2
+Bonus Damage: None
+Fire Speed: 1.28
+Range: 7
+Target: Ground
+
+Javelin Missile Launchers: 6x4
+Bonus Damage: 12x4 vs Light
+Fire speed: 3
+Range: 10
+Target: Air
+
+Move Speed: 1.88
+Armor: 1
+Cost: 300 minerals 200 gas
+Build Speed: 60
+Special Abilities: 250MM Strike Cannons: Deal 500 damage to 1 unit
+                   while at the same time stunning it.
+                   50 second cooldown.
+                   Research at tech lab. 150 minerals 150 gas. (110)
+Upgrades: None
+Counter as zerg: 
+1. Zergling: A cheap solution. The thor does overkill anyway so he
+   will waste his time shooting at them.
+
+2. Brood Lord: Brood Lords works too with alot of them.
+
+3. Infestor: Neural Parasite the Thor and you may have a chance to use it.
+   The infestor is extremely vulnerable so don't expect this to always work.
+
+
+Counter as Terran: 
+1. Battlecruiser: Somehow defeats multiple thors ALONE without even using
+   the Yamato Cannon. Its effective.
+
+2. Banshee: Cloaked Banshees makes short work of Thors. (Risky)
+
+3. Marines: A cheap solution. The thor does overkill to marines so he will
+   be wasting time shooting at marines while they are blasting him to bits.
+
+4. Marauder: Thors doesnt win if you gang on them with Marauders.
+
+5. Thor: The 250MM cannon instantly destroys the Thor.
+   First one to use that skill wins and leaves with full hp and a kill.
+
+6. Siege Tank: If all else fails, let your siege tanks hammer the Thor until
+   it dies before it reaches you.
+
+Counter as Protoss: 
+1. Immortal: They take 10 damage with their Shields while they do 50 DAMAGE.
+   They can't win alone though as Thors fires 2 times.
+
+2. Colossus: With range upgraded, you can even kite those Thors around.
+   With a mass, you can even own those thors.
+
+3. Void ray: With such a pathetic anti-air attack, you can defeat them easily.
+
+4. Zealot: Mass Zealot solves the problem. Thor has to hit 3 times to
+   defeat a zealot and with so many of them, he will go down quick.
+
+5. Dark Templar: A free kill if theres no detection.
+
+
+
+---------
+Air Units
+---------
+
+======
+Viking                                                          [tViking]
+======
+Supply cost: 2
+Prerequisite: Starport
+Train from: Starport
+Type: Armored, Mech
+HP: 125
+
+Lanzer Torpedoes: 10x2 (Fighter Mode)
+Bonus Damage: 14x2 against armored
+Fire Speed: 2
+Range: 9
+Target: Air
+Move Speed: 2.75
+
+Gatling Cannon: 12 (Assault Walker Mode)
+Fire Speed: 1
+Range 6
+Target: Ground
+Move Speed: 2.25
+
+Armor: 0
+Cost: 150 minerals 75 gas
+Build Speed: 42
+Special Abilities: Transform: The viking can change to Fighter Mode
+                   which attacks air and flies or change to
+                   Assault Mode in which it attacks ground and walks on ground
+Upgrades: None
+Counter as zerg:
+1. Ultralisk: If they dare to come to grounds, the ultralisk
+   will make short work of them. Easy way to get them down is
+   to attack their base.
+
+2. Roach: Also effective against Vikings while they are at ground.
+
+3. Hydralisk: Shoot them while they are airborne and get another couple of
+   free hits while hes wasting time switching modes or fleeing.
+
+4. Spore Cannon: Anti air, nuff said.
+
+Counter as Terran: 
+1. Viking: Make more viking than he does and upgrade them.
+
+2. Thor: Or choose the ground approach where the vikings are forced
+   to fight on ground. The Thor is perfect for that strategy.
+   It has anti air missiles and if the viking dares to come to ground, the
+   thor will obliberate him.
+
+3. Siege Tank: Siege Tank dominates vikings if they ever dare
+   to approach on ground. Make sure your not sieged though.
+
+4. Missile Turret: Anti air, nuff said.
+
+Counter as Protoss: 
+1. Stalker: Stalkers dominates vikings because of their bonus vs Armored.
+   Also, the stalker can shoot both ground and air.
+
+2. Immortal: Immortals make short work of vikings on ground.
+
+3. Zealot: If they dare to come to ground, the zealots will tear them apart. 
+
+4. Void Ray: They are weak against vikings, but if you charge up the laser
+   you dominate the vikings instead!
+
+5. Photon Cannon: Anti All, nuff said.
+
+=======
+Banshee                                                         [tBanshee]
+=======
+Supply cost: 3
+Prerequisite: Starport with attached Tech Lab
+Train from: Starport
+Type: Light, Mech
+HP: 140
+Max Energy: 200
+
+Backlash Rockets: 12x2
+Bonus Damage: None
+Fire Speed: 1.25
+Range: 6
+Target: Ground
+
+Move Speed: 2.75
+Armor: 0
+Cost: 150 minerals 100 gas
+Build Speed: 60
+Special Abilities: Cloak: It render the unit invisible.
+                   Cannot be attacked unless detected.
+                   It cost 25 energy to activate cloak and it continuesly
+                   drain the energy as long as its activated.
+                   Research at tech lab. 200 minerals 200 gas. (110)
+Upgrades: None
+Counter as zerg: 
+1. Corruptor: Corruptors will defeat Banshees easily.
+
+2. Overseer: For pesky cloaking banshees.
+
+3. Mutalisk: A nice alternative for Corruptors.
+
+Counter as Terran: 
+1. Viking: Destroys Banshees easily, but they cannot chase them :(
+
+2. Marines: Mass marines will easily defeat a mass banshees.
+
+3. Thor: Their anti air missiles are pretty effective against them.
+
+4. Battlecruiser: Totally obliberates Banshees. Too bad they are so slow.
+
+Counter as Protoss: 
+1. Phoenix: Chase them down with those Phoenix for some free kills.
+
+2. Observer: Detection for the pesky cloak.
+
+3. Void Ray: A nice alternative for Phoenix, but slower.
+
+4. Stalker: Not so effective as the other 2 but it will do.
+
+=======
+Medivac                                                         [tMedivac]
+=======
+Supply cost: 2
+Prerequisite: Starport
+Train from: Starport
+Type: Armored, Mech
+HP: 150
+Max Energy: 200
+
+Move Speed: 2.5
+Armor: 1
+Cost: 100 minerals 100 gas
+Build Speed: 42
+Special Abilities: Heal: Medivac will heal any wounded biological units.
+                   3 life per energy.(Auto)
+
+                   Transport: Medivac can pick up units for transport(8 slots)
+
+Upgrades: Caduceus Reactor: Increase Medivac starting energy by 25
+          Upgrade at Tech Lab. 100 minerals 100 gas.(80)
+Counter as zerg: 
+1. Mutalisk: Their bounce will also hit other units on the ground
+   if the medivac unloaded. Can also chase down Medivacs.
+
+2. Corruptor: They can chase down Medivacs pretty well.
+
+3. Hydralisk: Works too if they try to drop in your base.
+
+Counter as Terran: 
+1. Viking: Chase them down with vikings and they will be destroyed.
+
+2. Marine: The ability to shoot air is all you need.
+
+3. Battlecruiser: Incredible slow and too much of an overkill.
+   But it works well :)
+
+Counter as Protoss: 
+1. Phoenix: They chase those medivacs down with their high speed.
+
+2. Stalker: They can shoot air and thats what you want.
+
+3. Void Ray: Nice alternative for Phoenix.
+
+4. High Templar: Either Feedback the Medivac and if it drops units, storm.
+
+
+=======
+ Raven                                                          [tRaven]
+=======
+Supply cost: 2
+Prerequisite: Starport with attached Tech Lab
+Train from: Starport
+Type: Light, Mech
+HP: 140
+Max Energy: 200
+
+Turret: 8
+HP: 150
+Bonus Damage: None
+Fire Speed: 0.8
+Range: 6
+Target: Ground and Air
+Move Speed: None
+Armor: 1
+
+Move Speed: 2.25
+Armor: 1
+Cost: 100 minerals 200 gas
+Build Speed: 60
+Special Abilities: Build turret: Build a turret that shoots at all enemies.
+                   Selfdestructs after 180 seconds. Uses 50 energy.
+
+                   Build Point Defense Drone: Build a drone that shoots
+                   all enemies ranged attacks down. Each shot cost 10 energy.
+                   Uses 100 energy. The drone has 200 energy on his own.
+                   Selfdestructs after 180 seconds.
+
+                   Fire Hunter Seeker Missile: Fires a missile that slowly
+                   tracks down the target and explodes on contact.
+                   If the target isn't reached after 15 seconds, the missile
+                   falls down on the ground without detonating.
+                   Uses 125 energy.
+                   Research at tech lab. 150 minerals 150 gas. (110)
+
+                   Detector: Raven is a detector.(passive)
+                   
+Upgrades: Durable Materials: Turret and drones will stay longer
+          before it selfdestructs.
+          Upgrade at tech lab. 150 minerals 150 gas. (110)
+
+          Corvid Reactor: Increase the starting energy of the raven by 25.
+          Upgrade at tech lab. 150 minerals 150 gas. (110)
+Counter as zerg: 
+1. Corruptor: Chase them down before they get the chance to use their skills.
+
+2. Mutalisk: Works good like Corruptor.
+
+Counter as Terran: 
+1. Viking: Chase it down and it will be destroyed.
+
+2. Ghost: EMP the Raven and it can't use his skills anymore.
+
+3. Marine: You need the ability to shoot air and marines offer you that.
+   Watch out for Seeker Missiles.
+
+4. Battlecruiser: Actually effective if your opponent
+   uses a Point Defense Drone since the battlecruisers attacks 6 times a round
+   the energy of the drone will be depleted quickly.
+
+Counter as Protoss: 
+1. Phoenix: With Phoenix, chasing weak aircraft is easy.
+
+2. Void Ray: Slower but works too.
+
+3. Stalker: It works too, but don't get caught by a seeker missile.
+
+4. High Templar: Feedback works pretty well.
+
+=============
+Battlecruiser                                                 [tBattlecruiser]
+=============
+Supply cost: 6
+Prerequisite: Starport with attached Tech Lab, Fusion Core
+Train from: Starport
+Type: Armored, Mech, Massive
+HP: 550
+Max Energy: 200
+
+ATS Laser Battery: 8
+Fire Speed: 0.23
+Range: 6
+Target: Ground
+
+ATA Laser Battery: 6
+Fire speed: 0.23
+Range: 6
+Target: Air
+
+Move Speed: 1.875
+Armor: 3
+Cost: 400 minerals 300 gas
+Build Speed: 90
+Special Abilities: Yamato Cannon: Fires a powerful plasma shot that
+                   deals 300 damage. It also outrange an anti air building.
+                   Research at Fusion Core. 150 minerals 150 gas. (60)
+
+Upgrades: Behemoth Reactor: Increase the starting energy of battlecruisers
+          by 25. Upgrade at Fusion Core. 150 minerals 150 gas. (80)
+Counter as zerg: 
+1. Corruptor: Extra damage on Massive types and they can corrupt
+   the battlecruiser, dealing extra damage.
+   However you need alot of them, so don't expect 1 corruptor to defeat a
+   battlecruiser.
+
+2. Infestor: Neural Parasite the battlecruiser and attack your enemy with it.
+   The infestor will be extremely vulnerable so don't expect this
+   to always work.
+
+Counter as Terran: 
+1. Viking: The king of anti air, with 3 even possible to defeat a
+   battlecruiser, barely. You can also abuse the speed of the Battlecruiser
+   and kite it with vikings.
+
+2. Marine: With alot of marines, like 15 you can defeat
+   a battlecruiser with them.
+   Don't expect that to happen in late game where your opponent has alot of
+   Battlecruisers.
+
+Counter as Protoss: 
+1. Void Ray: The only truly effective weapon against the battlecruiser.
+   But you need alot of them to defeat multiple battlecruisers.
+
+2. Carrier: Well, its better then nothing, but compared to void ray,
+   the void ray is better.
+
+3. Sentry: Somehow helpful by lessening the damage, but dont expect them
+   to always survive...
+
+
+------------------------------------------------------------------------------
+5. Protoss
+------------------------------------------------------------------------------
+Protoss have the strongest unit of the 3 races.
+But of course at the same time, they have the most expensive units and the
+build time of them is the longest.
+All protoss units also has a plasma shield that recharges on its own after
+some time not in battle.
+Also instead of being able to build freely like terran, they must build
+in fields powered by a pylon. Supply also increases by pylons.
+If you compare them with the movie Alien Vs Predator, they are most likely
+the Predator.
+
+For Ctrl + F option, type p[unit name]
+For example if you want to search for a zealot, type [pZealot]
+
+------------
+Ground Units
+------------
+
+=====
+Probe                                                           [pProbe]
+=====
+Supply cost: 1
+Prerequisite: Nexus
+Train from: Nexus
+Type: Light, Mech
+HP: 20
+Shield: 20
+
+Particle Beam: 5
+Bonus Damage: None
+Fire Speed: 1.5
+Range: Melee
+Target: Ground
+Move Speed: 2.81
+Armor: 0
+Cost: 50 minerals
+Build Speed: 17
+Special Abilities: Gather: The probe can gather minerals and
+                   gas from assimilator.
+
+                   Building Warp: The probe can warp in buildings.
+                   After selecting the location of the building, the building
+                   will warp in on its own without the need of a probe.
+Upgrades: None
+Counter as zerg: No strategy needed, just destroy them.
+Counter as Terran: Same as zerg.
+Counter as Protoss: Same as Terran.
+
+
+
+
+
+======
+Zealot                                                          [pZealot]
+======
+Supply cost: 2
+Prerequisite: Gateway
+Train from: Gateway
+Type: Light, Biological
+HP: 100
+Shield: 50
+
+Psi-Blades: 8x2
+Bonus Damage: None
+Fire Speed: 1.2
+Range: Melee
+Target: Ground
+Move Speed: 2.25 + 0.50 (Research Charge)
+Armor: 1
+Cost: 100 minerals
+Build Speed: 38
+Special Abilities: Charge: Charge at an enemy and increases
+                   the speed for some time.
+                   Has a cooldown time of 10 seconds.(Auto)
+                   Research at twilight council. 200 minerals 200 gas. (140)
+Upgrades: None
+Counter as zerg: 
+1. Roach: Roach owns all 3 basic units, so why not use it on a zealot?
+
+2. Mutalisk: Free hits on those helpless zealots.
+
+3. Ultralisk: A nice alternative if you decide to take them on ground.
+
+Counter as Terran: 
+1. Wall: Just wall off your base with supply depots and barracks.
+   Zerg and Protoss rushes won't work as long as there are marines behind it.
+
+2. Hellion: They do bonus damage on Light units and Zealot = Light.
+   And since the Hellion is ranged and moves much much faster,
+   it can kite the zealots around. (unless charge is researched)
+
+3. Reaper: Reapers owns Zealots as long as you kite. If they get too close
+   your screwed. Kiting is unavaible if they researched Charge.
+
+Counter as Protoss: 
+1. Colossus: Colossus owns all 3 basic infantries and zealots are 1 of them.
+   Don't let them swarm the colossus though :P
+
+2. Sentry: Force Field the ramp of your base and they won't be able
+   to get through. Sentries and stalkers can shoot them.
+
+3. Zealot: You can also make more zealots then he has and upgrade them.
+
+4. Stalker: You can kite the zealots around, but the zealots will
+   eventually catch up. Even worse when they researched Charge.
+
+
+=======
+Stalker                                                         [pStalker]
+=======
+Supply cost: 2
+Prerequisite: Gateway, Cybernetics Core
+Train from: Gateway
+Type: Armored, Mech
+HP: 80
+Shield: 80
+
+Particle Disrupters: 10
+Bonus Damage: 14 against armored
+Fire Speed: 1.44
+Range: 6
+Target: Ground and Air
+Move Speed: 2.95
+Armor: 1
+Cost: 125 minerals 50 gas
+Build Speed: 42
+Special Abilities: Blink: Allows you to teleport a short distance.
+                   Has a cooldown time of 10 seconds.
+                   Research at twilight council. 150 minerals 150 gas. (140)
+Upgrades: None
+Counter as zerg: 
+1. Zergling: Zergling always beat stalkers on ground.
+
+2. Hydralisk: Also works if you have alot of them since they have higher
+   rate of fire and takes no bonus damage from Stalkers.
+
+3. Brood Lords: Incredible effective since they are long range.
+   Unless they massed air units, this is the perfect anti ground unit.
+
+
+Counter as Terran: 
+1. Marine: Mass marines always beats mass stalker.
+   They fire 2x faster then a stalker so they do 12 damage while
+   they do a measly 10 damage.
+
+2. Marauder: Stalker is expensive but somehow gets owned by marauders alone
+   even when they are cheaper and fast to produce.
+
+3. Siege Tank: Better firepower and HP = Victory
+
+Counter as Protoss: 
+1. Immortal: With his 50 damage a shot and faster fire rate, they
+   destroy those stalkers with ease.
+
+2. Zealot: Research Charge with it and you will catch up with stalkers and
+   make short work of them.
+
+3. Stalker: Another option is to make more stalkers then he does and upgrade.
+
+
+======
+Sentry                                                          [pSentry]
+======
+Supply cost: 2
+Prerequisite: Gateway, Cybernetics Core
+Train from: Gateway
+Type: Light, Psionic, Mech
+HP: 40
+Shield: 40
+Max Energy: 200
+
+Disruption Beam: 6
+Bonus Damage: None
+Fire Speed: 1
+Range: 5
+Target: Ground and Air
+Move Speed: 2.25
+Armor: 1
+Cost: 50 minerals 100 gas
+Build Speed: 42
+Special Abilities: Force Field: Create a barrier that blocks the way
+                   for 15 seconds. Nothing can go through it except Massive.
+                   Massive type units can stomp through it.
+                   Uses 50 Energy.
+
+                   Guardian Shield: Create an aura that reduces 2 damage to
+                   friendly units that are inside the aura. Lasts 15 seconds.
+                   Uses 75 Energy.
+
+                   Hallucination: Create a hallucination that dies more easily
+                   and does no damage on its own. You can pick your own
+                   hallucination instead of choosing an unit.
+                   Amount of hallucinations spawned varies by unit.
+                   Hallucination disappears automatically after 60 seconds.
+                   Uses 100 Energy. Research at Cybernetics Core.
+                   100 minerals 100 gas. (80)
+Upgrades: None
+Counter as zerg: 
+1. Roach: Easy kill with his 16 damage a shot.
+
+2. Hydralisk: Works almost like Roach.
+
+3. Mutalisk: You can also pick them off by air.
+
+Counter as Terran: 
+1. Ghost: EMP the sentry and it turns into a weak as hell and expensive unit.
+
+2. Hellion: Works well since sentries are always paired together
+   with other units.
+
+3. Siege Tank: 3 shots from a siege tank and its over for the sentry.
+
+Counter as Protoss: 
+1. Colossus: Defeats Sentries and other ground units with ease.
+
+2. Stalker: Stalkers will defeat sentries, even with their high gas cost.
+
+3. Void Ray: With void rays, you can just pick them off by air.
+
+
+============
+High Templar                                                   [pHigh Templar]
+============
+Supply cost: 2
+Prerequisite: Gateway, Templar Archives
+Train from: Gateway
+Type: Light, Psionic, Biological
+HP: 40
+Shield: 40
+Max Energy: 200
+
+Move Speed: 1.88
+Armor: 0
+Cost: 50 minerals 150 gas
+Build Speed: 55
+Special Abilities: Feedback: Drains all energy from the unit and
+                   deal 1 damage to the enemy per energy drained.
+                   Uses 50 Energy.
+
+                   Psionic Storm: Create a large storm that lasts 4 seconds.
+                   The storm can deal up to 80 damage max.
+                   Uses 75 Energy. Research at Templar Archives.
+                   200 minerals 200 gas. (110)
+
+                   Archon Warp: Sacrifice 2 templars to create an archon.
+                   (Sacrifice)
+
+Upgrades: None
+
+Counter as zerg: 
+1. Roach: Tired of seeing this unit on top? Well its that good...
+   That is, unless you get psi stormed in the face.
+
+2. Mutalisk: Easy and a kinda safe way to pick them off.
+   Avoid the storm at all cost since Mutalisks likes to clump together.
+
+3. Brood lord: Tech heavy, but works good.
+
+Counter as Terran: 
+1. Ghost: EMP them to prevent them from using their abilities and
+   then shoot it dead.
+
+2. Hellion: Effective since they can survive a psionic storm and
+   does bonus damage against Templars.
+
+3. Siege Tank: 3 shots and you have a dead Templar.
+
+Counter as Protoss: 
+1. Colossus: Just fire away at it and it will die.
+
+2. High Templar: Feedback before he does and it will either kill him or
+   prevent him from using his abilities.
+   Of course your opponent can do that to your templar too.
+
+3. Dark Templar: Or you can take be sneaky and stab him with a Dark Templar.
+
+
+
+============
+Dark Templar                                                   [pDark Templar]
+============
+Supply cost: 2
+Prerequisite: Gateway, Dark Shrine
+Train from: Gateway
+Type: Light, Psionic, Biological
+HP: 40
+Shield: 80
+
+Warp Blades: 45
+Bonus Damage: None
+Fire Speed: 1.69
+Range: Melee
+Target: Ground
+Move Speed: 2.81
+Armor: 1
+Cost: 125 minerals 125 gas
+Build Speed: 55
+Special Abilities: Permanently Cloaked: The dark templar is invisible.
+                   (passive)
+
+                   Archon Warp: Sacrifice 2 templars to create an archon.
+                   (Sacrifice)
+Upgrades: None
+Counter as zerg: 
+1. Overseer: Detection, nuff said.
+
+2. Spore crawler: Detection.
+
+3. Baneling: If they dare to strike the baneling, they will get damaged too.
+
+Counter as Terran: 
+1. Raven: Detection, nuff said.
+
+2. Ghost: Take a guess where he is and EMP that area.
+   If you got him, he will be visible + no shield.
+
+3. Orbital Command Center: 1 Scan and you will get rid of them since they
+   got low hp.
+
+4. Missile Turret: Detection.
+
+Counter as Protoss: 
+1. Photon Cannon: Detection + kills templar for you, whats better then that?
+
+2. Observer: Alternative Detection if you don't bother with cannons.
+
+
+======
+Archon                                                          [pArchon]
+======
+Supply cost: 4
+Prerequisite: Gateway, Templar Archives or Dark Shrine
+Train from: 2 templars
+Type: Massive, Psionic
+HP: 10
+Shield: 350
+
+Psionic Shockwave: 25
+Bonus Damage: 35 against biological
+Fire Speed: 1.75
+Range: 2
+Target: Ground and Air
+Move Speed: 2.81
+Armor: 0
+Cost: None
+Build Speed: 12
+Special Abilities: None
+Upgrades: None
+Counter as zerg: 
+1. Brood Lord: Since all zerg units are biological, you should
+   prevent him from attacking you. Brood Lord works with his long range.
+
+2. Ultralisk: Barely takes out an archon on his own.
+
+3. Hydralisk: Since archons can tank alot of hits, you should charge them
+   down with Brute Force. Hydralisk does enough damage for that.
+
+Counter as Terran:
+1. Ghost: EMP it like 3 or 4 times and even a marine
+   can take it out on his own.
+
+2. Thor: 250 MM cannon will do it.
+
+3. Siege Tank: Siege tanks in siege mode will defeat it too
+   if you don't have a Thor.
+
+4. Battlecruiser: Of course the tech heavy battlecruiser works too.
+
+Counter as Protoss: 
+1. Phoenix: With some phoenix, you can just graviton the archon and shoot it.
+
+2. Void Ray: Void rays will defeat archons since they charge their rays easily
+   on archons.
+
+Note: Archons have no armor meaning it won't take any bonus damages.
+
+========
+Immortal                                                        [pImmortal]
+========
+Supply cost: 4
+Prerequisite: Robotics Facility
+Train from: Robotics Facility
+Type: Armored, Mechanical
+HP: 200
+Shield: 100
+
+Phase Disrupters: 20
+Bonus Damage: 50 against armored
+Fire Speed: 1.44
+Range: 6
+Target: Ground
+Move Speed: 2.25
+Armor: 1
+Cost: 250 minerals 100 gas
+Build Speed: 40
+Special Abilities: Hardened Shield: Units that do more then 10 damage will
+                   only do 10 damage on immortals as long as they have shield.
+                   Special abilities ignores the hardened shield.(Passive)
+Upgrades: None
+Counter as zerg: 
+1. Zergling: Cheap and light units works best against Immortals.
+   They have to shoot twice to kill a zergling which is bad for them.
+
+2. Hydralisk: Even better since they have to shoot 4 times to kill a hydralisk
+
+3. Mutalisk: Free hits on those immortals.
+
+Counter as Terran: 
+1. Ghost: EMP the immortal and its suddenly a weak and expensive unit.
+
+2. Marine: Cheap and light units will defeat immortals with ease.
+   They have to shoot 3 times just to kill 1 marine.
+
+3. Banshee: The safest way to deal with an immortal if your opponent is dumb
+   enough to neglect anti-air.
+
+Counter as Protoss: 
+1. Zealot: Applies same as all cheap and light units. They own immortals since
+   the huge damage boost doesn't apply on light units.
+
+2. Void Ray: They will defeat immortals fast and even faster if
+   they charged their beam.
+
+========
+Colossus                                                        [pColossus]
+========
+Supply cost: 6
+Prerequisite: Robotics Facility, Robotics Bay
+Train from: Robotics Facility
+Type: Massive, Armored, Mechanical
+HP: 200
+Shield: 150
+
+Thermal Lances: 15x2
+Bonus Damage: None
+Fire Speed: 1.65
+Range: 6 (9 with Extended Thermal Lances)
+Target: Ground
+Move Speed: 2.25
+Armor: 1
+Cost: 300 minerals 200 gas
+Build Speed: 75
+Special Abilities: Cliff Walk: The colossus can walk up and down cliffs.
+                   (Passive)
+
+Upgrades: Extended Thermal Lances: Increase the range of the Thermal Lances.
+
+          Upgrade at Robotics Bay. 200 minerals 200 gas. (140)
+Counter as zerg: 
+1. Corruptor: The good thing about corruptors is that they can
+   hit the colossus while they can't get hit back. They als do bonus damage.
+
+2. Mutalisk: Works the same as the corruptor.
+
+3. Brood Lord: You're better off with Corruptors, but this works.
+
+Counter as Terran: 
+1. Viking: Same as all air-to-air units, they can hit the colossus and
+   the colossus can't hit back.
+
+2. Banshee: Works like the viking, but less effective.
+
+3. Siege tank: They severely outrange the colossus so its a good strategy
+   to kill it before it kills you.
+
+4. Thor: Just blast a 250MM in his face and he will be dead.
+
+Counter as Protoss: 
+1. Immortal: They own those colossus with their 50 damage a shot.
+
+2. Void Ray: Effective to use against high hp units like colossus.
+
+3. Phoenix: Free hits and the colossus can't hit back.
+
+
+----------
+Air Units
+----------
+
+========
+Observer                                                        [pObserver]
+========
+Supply cost: 1
+Prerequisite: Robotics Facility
+Train from: Robotics Facility
+Type: Light, Mechanical
+HP: 40
+Shield: 20
+  
+Move Speed: 1.88 + 0.93 (Gravitic Booster)
+Armor: 0
+Cost: 25 minerals 75 gas
+Build Speed: 40
+Special Abilities: Permanently Cloaked: The Observer is invisible.(Passive)
+
+                   Detector: The Observer is a detector.(Passive)
+
+Upgrades: Gravitic Booster: Increase the speed of the Observer.
+          Upgrade at Robotics Bay. 100 minerals 100 gas. (80)
+Counter as zerg: 
+1. Spore Crawler: It detects the observer and it gets rid of it for you.
+
+2. Overseer: Detection
+
+Counter as Terran: 
+1. Missile Turret: Detects the observer and destroys it for you.
+
+2. Raven: Detection
+
+3. Orbital Command Center: Scan on a location you think the observer is hiding
+   and destroy it.
+
+Counter as Protoss: 
+1. Photon Cannon: Detects and destroys the observer for you.
+
+2. Observer: You can use an observer of your own just to detect his observer.
+
+
+==========
+Warp Prism                                                      [pWarp Prism]
+==========
+Supply cost: 2
+Prerequisite: Robotics Facility
+Train from: Robotics Facility
+Type: Psionic, Armored, Mech
+HP: 100
+Shield: 100
+ 
+Move Speed: 2.5 + 0.88 (Gravitic Drive)
+Armor: 0
+Cost: 200 minerals
+Build Speed: 50
+Special Abilities: Transport: It can load units for transport.(8 slots)
+
+                   Phase Mode: The warp prism goes to phase mode.
+                   In this mode, it cannot move but will generate an energy
+                   field like the pylon.(Channeled)
+
+Upgrades: Gravitic Drive: Increase the speed of the Warp Prism
+Counter as zerg: 
+1. Mutalisk: Good for chasing those transports down.
+
+2. Corruptor: Also good for chasing them down except when units are unloaded.
+
+3. Hydralisk: Hydralisks can shoot down those transports or kill
+   the units in the transport.
+
+Counter as Terran: 
+1. Viking: They destroy those transports with ease and can chase them.
+
+2. Missile Turret: They can take down those transports if your opponent
+   decides to drop in your base with transports.
+
+Counter as Protoss: 
+1. Void Ray: Best in chasing since they can fire and move at the same time.
+
+2. Phoenix: Nice alternative.
+
+3. Photon Cannon: Solves the problem of enemy dropping in through transport.
+
+=======
+Phoenix                                                         [pPhoenix
+=======
+Supply cost: 2
+Prerequisite: Stargate
+Train from: Stargate
+Type: Light, Mech
+HP: 120
+Shield: 60
+
+Ion Cannons: 5x2
+Bonus Damage: 10x2 against Light
+Fire Speed: 1.1
+Range: 4
+Target: Air
+Move Speed: 4.25
+Armor: 0
+Cost: 150 minerals 100 gas
+Build Speed: 35
+Special Abilities: Graviton Beam: Lift an enemy up so it floats around
+                   helplessly. Enemy lifted up counts as air.
+                   The Phoenix that uses this skill is immobilized.
+                   Massive Units are immune to this.
+                   Uses 50 energy.(Channeled)
+
+                   Fire on the Move: Not shown, but the Phoenix can fire
+                   while moving. (Passive)
+Upgrades: None
+Counter as zerg: 
+1. Corruptor: Incredibly strong for an anti air.
+
+2. Hydralisk: They can shoot those phoenix down without taking damage unless
+   they use graviton beams.
+
+Counter as Terran: 
+1. Viking: Vikings own those phoenix in the face, even if
+   the game says otherwise, its outdated.
+
+2. Thor: Outranges the phoenix and is immune to the beam.
+
+3. Missile Turret: Missile turrets will destroy those pesky phoenix harass.
+
+4. Battlecruiser: Overkill, but its effective.
+
+Counter as Protoss: 
+1. Void Ray: Incredibly effective
+
+2. Stalker: Effective, but can't chase them effectively.
+
+3. Photon Cannon: Solves the problem of phoenix harrass.
+
+========
+Void Ray                                                        [pVoid Ray]
+========
+Supply cost: 3
+Prerequisite: Stargate
+Train from: Stargate
+Type: Armored, Mech
+HP: 150
+Shield: 100
+
+Prismatic Beam: 6
+Bonus Damage: 10 against Armored
+              20% more against Massive
+Fire Speed: 0.6
+Range: 6
+Target: Ground and Air
+Move Speed: 2.25
+Armor: 0
+Cost: 250 minerals 150 gas
+Build Speed: 60
+Special Abilities: Fire on the Move: Its not displayed but the void ray
+                   can actually fire while moving.(Passive)
+
+                   Prismatic Beam: The beam does double damage if it
+                   concentrate long enough on a single unit. (Passive)
+
+Upgrades: None
+Counter as zerg: 
+1. Hydralisk: Low hp prevents them from charging the beam while it
+   does good damage on the Void ray.
+
+2. Corruptor: Works pretty good, but make sure you have more corruptors
+   then he has Void Rays.
+
+Counter as Terran: 
+1. Marine: Mass marines will defeat those Void Rays while with their
+   low hp, they can't charge their beams.
+
+2. Viking: Good against them, but make sure you have more Vikings
+   then he has void rays.
+
+Counter as Protoss: 
+1. Void ray: Make more void rays then he has and upgrade them.
+
+2. Stalker: Good against uncharged beams, but if they have their
+   lasers charged, this won't work.
+
+
+=======
+Carrier                                                         [pCarrier]
+=======
+Supply cost: 6
+Prerequisite: Stargate, Fleet Beacon
+Train from: Stargate
+Type: Massive, Armored, Mech
+HP: 300
+Shield: 150
+
+Interceptors: 5x2
+Bonus Damage: None
+Fire Speed: 1
+Range: 8
+Target: Ground and Air
+Move Speed: 1.88
+Armor: 2
+Cost: 350 minerals 250 gas
+Build Speed: 120
+Special Abilities: Build Interceptors: Build Interceptors for the carrier.
+                   The more interceptors a carrier has, the more the carrier
+                   will unleash to attack. If the carrier gets destroyed,
+                   all Interceptor belonging to the carrier will selfdestruct.
+                   1 Carrier can hold up to 8 interceptors max.
+                   The carrier cannot attack without interceptors.(Auto)
+                   
+Upgrades: Graviton Catapult: Launch the Interceptors quicker.
+          Upgrade at Fleet Beacon. 150 minerals 150 gas. (80)
+Counter as zerg: 
+1. Corruptor: You can defeat those carriers as long you
+   have alot of corruptors and destroys those interceptors first.
+
+2. Hydralisk: They do even better in destroying those Interceptors, but
+   most of the time, the carrier is out of reach.
+
+Counter as Terran: 
+1. Viking: Great against the carrier with its 28 damage a shot.
+
+2. Marines: If all else fails, you should use marines, which
+   is better then nothing.
+
+Counter as Protoss: 
+1. Stalker: Mass stalkers defeats carriers as long as you shoot
+   at the interceptors first.
+
+2. Void Ray: With his high hp, Void Rays can charge up the laser easily.
+
+3. Carrier: Of course you can always bring your own carriers to deal with them
+
+===========
+Interceptor                                                     [pInterceptor]
+===========
+Supply cost: 0
+Prerequisite: Carrier
+Train from: Carrier
+Type: Light, Mech
+HP: 40
+Shield: 40
+
+Interceptor Beams: 5x2
+Bonus Damage: None
+Fire Speed: 3
+Range: 2
+Target: Ground and Air
+Move Speed: 7.5
+Armor: 0
+Cost: 25 minerals
+Build Speed: 8
+Special Abilities: None
+Upgrades: None
+Counter as zerg: See Carrier
+Counter as Terran: See Carrier
+Counter as Protoss: See Carrier
+
+
+
+
+
+==========
+Mothership                                                      [pMothership]
+==========
+Supply cost: 8
+Prerequisite: Nexus, Fleet Beacon, No Mothership
+Train from: Nexus
+Type: Massive, Psionic, Armored, Mech
+HP: 350
+Shield: 350
+Max Energy: 200
+
+Purifier Beam: 6x6
+Bonus Damage: None
+Fire Speed: 2.21
+Range: 7
+Target: Ground and Air
+Move Speed: 1.41
+Armor: 2
+Cost: 400 minerals 400 gas
+Build Speed: 160
+Special Abilities: Vortex: Create a vortex that lasts for 20 seconds.
+                   Units trapped inside the vortex are out of combat,
+                   but are invincible.
+                   Motherships are immune to the vortex.
+                   Trapped units will be released if the vortex is gone.
+                   Uses 100 energy.
+
+                   Mass Recal: Select an area and all units that are owned
+                   by the player in the area will be teleported under
+                   the Mothership. Uses 100 energy.
+
+                   Cloaking Field: All friendly units near the Mothership
+                   will be cloaked over time. (Passive)
+Upgrades: None
+Counter as zerg: 
+1. Corruptor: With their 20 damage against massive they are
+   effective against the mothership.
+
+2. Hydralisk: Works too with big mass.
+
+3. Mutalisk: Also effective but I recommend you to avoid using mutalisk
+   because of its high gas cost.
+
+Counter as Terran: 
+1. Viking: The king of anti air will take down the mothership easily
+   with its high damage output and it outranges the mothership.
+
+2. Battlecruiser: Fire some yamato cannon rounds on it and it will be
+   destroyed pretty soon.
+
+3. Marine: Mass marines is somehow effective against the mothership.
+
+Counter as Protoss: 
+1. Void Ray: It works, but make sure you have plenty of them.
+
+2. Stalker: Extra damage against armored so why not?
+
+3. Carrier: If its late game, use the carriers and destroy it.
+   Pretty effective too.
+
+------------------------------------------------------------------------------
+6. Zerg
+------------------------------------------------------------------------------
+Zerg is an interesting race because unlike the other two races where you have
+to build a barrack or something, the units are instead created by a larva.
+And unlike other workers, the worker self becomes the building.
+It means that all units of zerg are biological, even structures.
+The buildings must be placed on creep, a purple biomass thats on the ground.
+All zerg units and structures regenerates on its own over time.
+Also the supply increases only when you build overlords.
+And yes, the overlord is an unit.
+Compared to the movie Alien vs Predator, the zerg are likely the Alien.
+
+Note: Almost all zerg units moves faster on creep. Take advantage of this.
+
+Another Note: Note that ALL zerg units can also burrow. Yes, I'm lazy so
+I'm not going to include this. Exception is if the unit has an
+unique ability underground like the Roach.
+
+For Ctrl + F option, type z[unit name]
+For example if you want to search the Zergling, type [zZergling]
+
+------------
+Ground Units
+------------
+
+=====
+Drone                                                           [zDrone]
+=====
+Supply cost: 1 
+Prerequisite: None
+Train from: Larva
+Type: Light, Biological
+HP: 40
+
+Claws: 5
+Bonus Damage: None
+Fire Speed: 1.5
+Range: Melee
+Target: Ground
+Move Speed: 2.81
+Armor: 0
+Cost: 50
+Build Speed: 17
+Special Abilities: Gather: The Drone gather minerals and gas from extractors.
+
+                   Morph: Morph a drone into a building.(Sacrifice)
+Upgrades: None
+Counter as zerg: No strategy needed.
+Counter as Terran: Same as Zerg.
+Counter as Protoss: Same as Terran.
+
+
+
+=====
+Queen                                                           [zQueen]
+=====
+Supply cost: 2
+Prerequisite: Hatchery, Spawning Pool
+Train from: Hatchery
+Type: No Armor, Psionic, Biological
+HP: 175
+Max Energy: 200
+
+Talons: 4x2
+Bonus Damage: None
+Fire Speed: 1
+Range: 3
+Target: Ground
+
+Acid Spines: 9
+Bonus Damage: None
+Fire Speed: 1
+Range 7
+Target: Air
+
+Move Speed: 0.94 + 1.56 (creep)
+Armor: 1
+Cost: 150
+Build Speed: 50
+Special Abilities: Spawn Creep Tumor: Spawn a burrowed creep tumor
+                   that expends creep. The creep tumor can create another
+                   additional creep tumor. Uses 25 energy.
+
+                   Spawn Larva: Target a Hatchery, Lair or Hive and
+                   spawn 4 extra Larva's in 40 seconds. Uses 25 energy.
+
+                   Transfusion: Give 125 health to a biological unit
+                   or structure. Uses 50 energy.
+
+Upgrades: None
+Counter as zerg: 
+1. Roach: No matter what, roach will always defeat the queen. :P
+
+2. Hydralisk: It works as the roach, but dies faster.
+
+3. Zergling: Some zerglings will defeat a queen while its wasting time
+   slashing at the zerglings.
+
+Counter as Terran: 
+1. Reaper: With their extra damage against them, its effective.
+
+2. Ghost: Snipe already does 45 damage + 10 so its a quick kill
+   as long as you snipe.
+
+3. Marauder: With their armor, the queen will waste her time doing 6 damage
+   while the marauders does 10 damage a shot.
+
+Counter as Protoss: 
+1. Archon: They kill it very quickly since it owns all biological units.
+   Another good news is, the archon can't be kited by the queen.
+
+2. High Templar: You rarely see a queen with 175 energy, but if you do
+   see 1, feedback it for a quick kill and some lulz.
+
+3. Dark Templar: The good thing about the dark templar is that they do alot
+   of damage already on his own and is permanently cloaked.
+   Of course this strategy shouldn't be used if your opponent has detection.
+
+
+Note: No one ever is dumb enough to mass queens, but the strategy is here
+      so you can see whats effective against them.
+
+========
+Zergling                                                        [zZergling]
+========
+Supply cost: 0.5
+Prerequisite: Spawning Pool
+Train from: Larva (you get 2 zerglings at once)
+Type: Light, Biological
+HP: 35
+
+Claws: 5
+Bonus Damage: None
+Fire Speed: 0.7
+Range: Melee
+Target: Ground
+Move Speed: 2.95 + 0.88 (creep) after Metabolic Boost: 4.7 + 1.41 (creep)
+Armor: 0
+Cost: 50
+Build Speed: 24
+Special Abilities: Morph into Baneling: Morph the zergling into a Baneling.
+                   Baneling Nest prerequisite.(Sacrifice)
+
+Upgrades: Metabolic Boost: Increase the speed of zerglings.
+          Evolve at Spawning Pool. 100 minerals 100 gas. (110)
+
+          Adrenal Glands: Increase the attack speed of zerglings by 20%.
+          Evolve at Spawning Pool. 200 minerals 200 gas. (140)
+
+          
+Counter as zerg: 
+1. Baneling: It does 35 damage + splash so 1 baneling is enough to
+   kill several zerglings. Another good news is that if the zerglings dares
+   to kill the baneling, they die.
+
+2. Roach: Good alternative and it lasts longer then the baneling.
+
+3. Ultralisk: Kills multiple zerglings in 3 hits.
+   Of course its tech heavy so it got a #3.
+
+Counter as Terran: 
+1. Wall: Just wall of your base and you will be fine as long as
+   there are marines shooting those zerglings.
+
+2. Hellion: With their insane AoE attack, they can kill multiple zerglings
+   in 2 or 3 attacks since they like to clump together.
+
+3. Siege Tank: Kills multiple zerglings in 1 shot
+   but don't let them get close though.
+
+4. Reaper: 2 attacks from a reaper will kill a zergling and you can kite
+   them around as long as they don't evolve Metabolic Boost.
+
+Counter as Protoss: 
+1. Colossus: They kill zerglings efficiently, but don't expect a colossus
+   to defeat mass zerglings alone, have some units to back them up.
+
+2. Archon: They do exactly 35 damage and its splash, so they
+   kill multiple zerglings with 1 attack.
+
+3. High Templar: 1 Storm kills lots of zerglins, well unless you screw up.
+
+4. Zealot: Its like zealots were made to tank and kill zerglings in starcraft.
+   Merely 1 zealot can take on 4 zerglings. With 1 attack upgrade, you defeat
+   a zergling in just 2 attacks.
+
+========
+Baneling                                                        [zBaneling]
+========
+Supply cost: 0.5
+Prerequisite: Baneling Nest
+Train from: Zergling
+Type: No Armor, Biological
+HP: 30
+
+Volatile Burst (Kamikaze): 20
+Bonus Damage: 35 against Light
+Fire Speed: 0.83
+Range: Melee
+Target: Ground
+Move Speed: 2.5 + 0.75 (creep) After evolving Centrifugal Hooks: 2.95 + 0.88
+Armor: 0
+Cost: 25 minerals 25 gas
+Build Speed: 20
+Special Abilities: Explode: Let the selected Baneling explode.(Sacrifice)
+
+                   Attack Structure: Detonate near a structure, dealing
+                   80 damage on the target structure.(Sacrifice)
+
+Upgrades: Centrifugal Hooks: Increase the speed of Banelings.
+          Evolve at Baneling Nest. 150 minerals 150 gas. (110)
+
+Counter as zerg: 
+1. Roach: Since roaches are not Light, banelings will only do 20 damage.
+   And of course, roaches are ranged, so they can take them out from afar.
+
+2. Mutalisk: By air, you can pick them off while they can't harm you.
+
+3. Hydralisk: Much riskier since its Light, but has bigger range.
+
+Counter as Terran: 
+1. Siege Tank: 1 shot from the Siege Tank in siege mode will destroy multiple
+   banelings and since its not Light, it won't take full damage.
+
+2. Hellion: With its long AoE attack and high speed, you can kite them.
+
+3. Marauder: With Concussive Shell, they can kite banelings around with proper
+   micro and because its armored too, it won't take full damage.
+
+
+Counter as Protoss: 
+1. Archon: Its like archons are made to tank Banelings. Archons kill multiple
+   banelings in 1 hit while you need ALOT of banelings just to kill an archon.
+
+2. High Templar: Just like zerglings, 1 storm will kill many of them.
+   BUT, dont let them get close.
+
+3. Immortals: They tank those banelings good since they only take 10 damage
+   and if the shields are gone, 20 damage.
+
+4. Colossus: Another good alternative for tanking.
+
+
+Note: Another great tactic is to sacrifice 1 unit to destroy multiple
+      banelings. The trade off is very good since your main attack force
+      will be unharmed.
+
+=====
+Roach                                                           [zRoach]
+=====
+Supply cost: 2
+Prerequisite: Roach Warren
+Train from: Larva
+Type: Armored, Biological
+HP: 145
+
+Acid Saliva: 16
+Bonus Damage: None
+Fire Speed: 2
+Range: 4
+Target: Ground
+Move Speed: 2.25 + 0.67 (creep) after evolving Glial Reconstitution 3 + 0.9
+Move Speed Burrowed: 1.41 + 0.42 (creep)
+Armor: 1
+Cost: 75 minerals 25 gas
+Build Speed: 27
+Special Abilities: Rapid Regeneration: Heal fast while burrowed.(Passive)
+
+                   Tunneling Claws: Allows roaches to move while burrowed.
+                   Also speeds up the healing while burrowed.(Passive)
+                   Evolve at Roach Warren. 150 minerals 150 gas. (110)	
+
+Upgrades: Glial Reconstitution: Increase the speed of roaches.
+          Evolve at Roach Warren. 100 minerals 100 gas. (110)
+Counter as zerg: 
+1. Mutalisk: Free hits on those helpless roaches.
+
+2. Overseer: The last thing you want is having them burrow
+   underground to regenerate. Kill them before they regenerate or get away.
+
+3. Roach: Make more roach then he has and upgrade them.
+
+Counter as Terran: 
+1. Siege Tank: Since they have high regeneration, you have to use brute force
+   to kill them before they have the chance to regenerate.
+
+2. Raven: With detection, you prevent them from regenerating or
+   fleeing through burrow.
+
+3. Thor: They do 60 damage against them and can tank alot of hits.
+   Don't send them alone though, pair them with other strong units.
+
+4. Marauder: Good counter against early roaches.
+   You'll be surprised how effective they are against them.
+
+Counter as Protoss: 
+1. Immortal: The best unit in owning armored types since they kill a roach
+   in 3 shots while taking a measly 10 damage.
+
+2. Observer: You don't want to let them get away and regenerate do you?
+
+3. Stalker: A good mass of stalkers will always beat mass roaches.
+
+=========
+Hydralisk                                                       [zHydralisk]
+=========
+Supply cost: 2
+Prerequisite: Hydralisk Den
+Train from: Larva
+Type: Light, Biological
+HP: 80
+
+Needle Spines: 12
+Bonus Damage: None
+Fire Speed: 0.83
+Range: 5 (6 with Grooved Spines)
+Target: Ground and Air
+Move Speed: 2.25 + 1.12 (creep)
+Armor: 0
+Cost: 100 minerals 50 gas
+Build Speed: 33
+Special Abilities: None
+Upgrades: Grooved Spines: Increase the attack range of all Hydralisks
+          Evolve at Hydralisk Den. 150 minerals 150 gas. (80)
+
+Counter as zerg: 
+1. Roach: You will easily kill them before they kill you.
+
+2. Ultralisk: You can also charge at them since Hydralisks like to stand
+   still and shoot.
+
+3. Brood Lord: As long as they don't catch up with you, you will
+   do excellent damage on them.
+
+Counter as Terran: 
+1. Siege Tank: Easily the best counter. They do 35 damage a shot and
+   severely outranges them.
+
+2. Raven: The Hunter Seeker Missile can kill multiple Hydralisks and
+   the point defense drone can absorb many shots from the hydralisks.
+   Of course you can piss them off too by building some turrets.
+
+3. Marine: 1 marine against 1 hydralisk will lose, but 3 or more marines
+   will easily defeat a hydralisk. With combat shield and large mass, imagine
+   how easily they will defeat hydralisks.
+
+Counter as Protoss: 
+1. High Templar: Since hydralisks like to stand and shoot, 1 full
+   storm can take multiple hydras out.
+
+2. Dark Templar: Kills a hydralisk in 2 hits and its invisible.
+
+3. Zealot: Zealot do excellent against hydras. Make sure you support
+   them with guardian shield.
+
+4. Sentry: Lessen the damage, but keep them safe though...
+
+========
+Infestor                                                        [zInfestor]
+========
+Supply cost: 2
+Prerequisite: Infestation Pit
+Train from: Larva
+Type: Psionic, Armored, Biological
+HP: 90
+Max Energy: 200
+
+Move Speed: 2.5 + 0.75 (creep)
+Move Speed Burrowed: 2 + 0.6 (creep)
+Armor: 0
+Cost: 100 minerals 150 gas
+Build Speed: 50
+Special Abilities: Spawn Infested Marine: Spawn an egg that releases a
+                   Infested Marine. Dies after 30 seconds.
+                   Uses 25 energy.
+
+                   Fungal Growth: Immobolize a target area and cause
+                   them 30 damage in 4 seconds. 40 against armored.
+                   Cloaked and Burrowed units will be revealed
+                   for a short time.
+                   Units affected by Fungal Growth can still attack.
+                   Uses 75 energy.
+
+                   Neural Parasite: Take control of an enemy unit for
+                   10 seconds and the Infestor cannot move while using this.
+                   Unit will be released if the infestor controlling it dies
+                   or 10 seconds has passed.(Channeled)
+                   Uses 100 energy. Evolve at Infestation Pit.
+                   150 minerals 150 gas. (110)
+
+                   Tunneling: The Infestor can move while burrowed.
+                   No research needed.(Passive)
+
+Upgrades: Pathogen Glands: Increase the starting energy by 25.
+          Evolve at Infestation Pit. 150 minerals 150 gas. (80)
+
+Counter as zerg: 
+1. Overseer: Detect them fast and kill it before it can cause some damage
+   with the infested marines.
+
+2. Roach: Takes them out easily, but make sure you do it fast.
+
+3. Hydralisk: Same as Roach, but dies easily if the infested marines comes.
+
+Counter as Terran: 
+1. Ghost: An EMP will drain the Infestor's energy before it can use its
+   abilities.
+
+2. Raven: Mobile Detection armed with a hunter seeker missile that
+   instantly kills the infestor. No explanation needed right?
+
+3. Orbital Command Center: Its good to have some energy to scan those critters
+   out just in case they attack.
+
+Counter as Protoss:
+1. High Templar: A feedback will prevent them from using any abilities.
+ 
+2. Immortal: Kills them in 2 hits, nuff said.
+
+3. Observer: Detects them if they go underground.
+
+===============
+Infested Marine                                             [zInfested Marine]
+===============
+Supply cost: 0
+Prerequisite: Infestation Pit, Infestor
+Train from: Infestor
+Type: Light, Biological
+HP: 50
+
+Infested Gauss Rifle: 8
+Bonus Damage: None
+Fire Speed: 0.86
+Range: 5
+Target: Ground and Air
+Move Speed: 0.94 + 0.28 (creep)
+Armor: 0
+Cost: 25 energy
+Build Speed: 10
+Special Abilities: Short Lifespan: Dies after 30 seconds.(Sacrifice)(Passive)
+Upgrades: None
+
+Counter as zerg:
+1. Roach: Kills them easily since they are frail.
+ 
+Counter as Terran: 
+1. Siege Tank: 2 shots from a Sieged Tank will kill them.
+
+2. Hellion: Good for burning them, since they are Light.
+
+Counter as Protoss: 
+1. High Templar: If the infestor manages to use infested marines
+   just storm them and they will be dead.
+
+2. Colossus: Effective against them.
+
+3. Zealot: Zealots are always stronger then marines.
+
+=========
+Ultralisk                                                       [zUltralisk]
+=========
+Supply cost: 6
+Prerequisite: Ultralisk Cavern
+Train from: Larva
+Type: Massive, Armored, Biological
+HP: 500
+
+Kaiser Blades: 15 (Multiple Targets)
+Bonus Damage: 35 against Armored
+Fire Speed: 0.86
+Range: 1
+Target: Ground
+
+Move Speed: 2.95 + 0.88 (creep)
+Armor: 1 + 2 (Chitinous Plating)
+Cost: 300 minerals 200 gas
+Build Speed: 55
+Special Abilities: Frenzied: Immune to stun, snare and mind controls.(passive)
+
+Upgrades: Chitinous Plating: Add 2+ armors to all Ultralisks.
+          Evolve at Ultralisk Cavern: 150 minerals 150 gas. (110)
+
+Counter as zerg: 
+1. Brood Lord: Does good damage and can't be hit by the Ultralisk.
+
+2. Mutalisk: A good alternative against them, also can't be hit by the ultra.
+
+Counter as Terran: 
+1. Banshee: Free hits, no explanations needed.
+
+2. Battlecruiser: Also free hits, but boy its so slow...
+
+3. Thor: With the 250MM gun, you will NEARLY kill it with it just 1 hp left.
+   Quickly finish it off.
+
+4. Siege Tank: If multiple tanks are attacking the Ultralisk in siege mode
+   it can destroy it before it touches your base.
+   Of course you can also kite it around.
+
+5. Hellion: Free hits as long as you put your effort into the kiting.
+
+Counter as Protoss: 
+1. Immortal: An excellent counter. It does 50 damage while they take a
+   crappy 10 damage from the ultralisk.
+
+2. Void Ray: Good in chasing those ultralisk and with the ultralisk's big hp
+   you can just charge the laser on them.
+
+3. Carrier: They fly and kill ground units.
+
+4. Stalkers: With blink, you can drive those Ultras crazy as they
+   are slow and can't catch up with those stalkers.
+
+
+Note: If you are using ground units against Ultralisks, always spread your
+      units to minimize the damage of the Kaiser Blades.
+
+==========
+Changeling                                                      [zChangeling]
+==========
+Supply cost: 0
+Prerequisite: Lair, Overseer
+Train from: Overseer
+Type: Light, Biological
+HP: 5
+
+Move Speed: 2.25
+Armor: 0
+Cost: 50 energy
+Build Speed: Instant
+Special Abilities: Disguise: Match the colour of the first enemy he encounters
+                   and turn into a marine, zealot or zergling depending on
+                   the enemy's race.(Passive)
+Upgrades: None
+Counter as zerg: No ways to detect them, just pay attention to your units.
+Counter as Terran: Same as Zerg.
+Counter as Protoss: Same as Terran.
+
+
+
+---------
+Air Units
+---------
+========
+Overlord                                                        [zOverlord]
+========
+Supply cost: 0
+Prerequisite: Hatchery
+Train from: Larva
+Type: Light, Biological
+HP: 200
+
+Move Speed: 0.47 + 1.41 (Pneumatized Carapace)
+Armor: 0
+Cost: 100 minerals
+Build Speed: 25
+Special Abilities: Generate Creep: Generate Creep around the overlords area.
+                   The overlord isn't allowed to move while generating creep.
+                   (Channeled)
+
+                   Transport: Overlords can load units for transport.(8 slots)
+                   Evolve at Lair or Hive. 200 minerals 200 gas. (130)
+
+                   Morph to Overseer: Morph to an overseer.(Sacrifice)
+                   50 minerals 100 gas. Lair required.
+
+Upgrades: Pneumatized Carapace: Increase the speed of Overlords and Overseers.
+          Evolve at Lair or Hive. 100 minerals 100 gas. (60)
+Counter as zerg: 
+1. Corruptor: Use them to hunt down those overlords.
+
+2. Mutalisk: Mutalisks can also help in hunting down overlords.
+
+Counter as Terran: 
+1. Viking: Nothing better then a viking hunting overlords.
+
+Counter as Protoss: 
+1. Phoenix: Good with hunting down those overlords.
+
+2. Void Ray: Works too if you decide to hunt overlords.
+
+========
+Overseer                                                        [zOverseer]
+========
+Supply cost: 0
+Prerequisite: Lair, Overlord
+Train from: Overlord
+Type: Light, Biological
+HP: 200
+Max Energy: 200
+
+Move Speed: 1.88 + 0.87 (Pneumatized Carapace)
+Armor: 1
+Cost: 50 minerals 50 gas
+Build Speed: 17
+Special Abilities: Spawn Changeling: Spawn a changeling.
+                   Uses 50 energy.
+
+                   Contaminate: Target structure won't be able to
+                   train units for 30 seconds. Uses 125 energy.
+
+                   Detector: The overseer is a detector.(Passive)
+
+Upgrades: Pneumatized Carapace: Increase the speed of Overlords and Overseers.
+          Evolve at Lair or Hive. 100 minerals 100 gas. (60)
+
+Counter as zerg: Same strategy as Overlord.
+Counter as Terran: Same as zerg.
+Counter as Protoss: Same as Terran.
+
+
+
+
+========
+Mutalisk                                                        [zMutalisk]
+========
+Supply cost: 2
+Prerequisite: Spire
+Train from: Larva
+Type: Light, Biological
+HP: 120
+
+Glave Wurm: 9 (bounce) 6 (first bounce) 3 (2nd bounce)
+Bonus Damage: None
+Fire Speed: 1.52
+Range: 3
+Target: Ground and Air
+Move Speed: 3.75
+Armor: 0
+Cost: 100 minerals 100 gas
+Build Speed: 33
+Special Abilities: Bounce: The Glave Wurm can bounce up to 2 times after
+                   striking the opponent. (Passive)
+
+Upgrades: None
+Counter as zerg: 
+1. Corruptor: Somehow, 1 corruptor easily defeats 2 mutalisk while
+   costing only 50 minerals more.
+
+2. Hydralisk: Somehow effective. (In SC1 Mutalisk dominates hydras.)
+
+Counter as Terran: 
+1. Viking: Easily the best counter with its 20 damage an attack.
+
+2. Thor: With its 48 damage an attack and a range of 10, they kill
+   those mutalisks before they can even see the Thor.
+   And with its 400 hp, it can survive alot of punishment.
+
+3. Bunker or Turrets: Mutalisks has been known for hit and run tactics.
+   Thats bad for you if he harrass you multiple times.
+   Jamming a bunker full with marines or building turrets everywhere and
+   say goodbye to those mutalisk if they dare to come again.
+
+4. Battlecruiser: Tech and resource heavy, but its a good alternative strategy
+   Beware that this big armada is slow as hell.
+
+Counter as Protoss: 
+1. Phoenix: 20 damage + fast firing rate = dead mutalisks.
+   You can even kite those mutalisks in a funny way.
+
+2. Stalker: They can defeat those mutalisks for you if you didn't
+   had time to create phoenixes.
+
+3. Archon: They really own Mutalisks, but they can't catch up with them.
+   Good players with good micro can defeat an archon without
+   it even touching those Mutalisks.
+
+4. Photon Cannon: A must if you already know hes gonna build mutalisks.
+
+=========
+Corruptor                                                       [zCorruptor]
+=========
+Supply cost: 2
+Prerequisite: Spire
+Train from: Larva
+Type: Armored, Biological
+HP: 200
+
+Parasitic Spore: 14
+Bonus Damage: 20 against Massive
+Fire Speed: 1.9
+Range: 6
+Target: Air
+Move Speed: 2.95
+Armor: 2
+Cost: 150 minerals 100 gas
+Build Speed: 40
+Special Abilities: Corruption: Cover an unit in zerg slime for 30 seconds.
+                   The unit covered in slime will take 20% more damage.
+                   Has a 45 second cooldown.
+                   Uses 75 Energy.
+
+                   Morph to Brood Lord: Morph the corruptor to brood lord.
+                   150 minerals 150 gas.(Sacrifice)
+Upgrades: None
+Counter as zerg: 
+1. Hydralisk: Free hits on those corruptors.
+
+2. Corruptor: Make more corruptors then he has and upgrade them.
+
+Counter as Terran: 
+1. Thor: Again, free hits since the corruptor doesn't target ground.
+
+2. Viking: Cheaper and yet it dominates the corruptor.
+
+3. Marine: They shoot air and thats all you need.
+
+Counter as Protoss: 
+1. Stalker: Free hits.
+
+2. Void Ray: Void Rays charges their beam easily on corruptors so it
+   will be easy kills if you manage to charge it up.
+
+3. Archon: Again, they own corruptors and mutalisks, but their slowness and
+   lack of range makes it hard to catch them.
+
+==========
+Brood Lord                                                      [zBrood Lord]
+==========
+Supply cost: 4
+Prerequisite: Greater Spire
+Train from: Corruptor
+Type: Armored, Biological
+HP: 225
+
+Broodling Strike: 20
+Bonus Damage: None
+Fire Speed: 2.5
+Range: 9.5
+Target: Ground
+Move Speed: 1.41
+Armor: 1
+Cost: 150 minerals 150 gas
+Build Speed: 37
+Special Abilities: Swarm Seeds: Fire broodling at the target while at the same
+                   time the broodling that striked the enemy will attack.
+                   (Passive)
+
+Upgrades: None
+Counter as zerg: 
+1. Corruptor: Free hits, as long as you take out other units that can shoot
+   air like hydralisk or other corruptors.
+
+2. Mutalisk: Works like corruptor but less effective.
+
+Counter as Terran: 
+1. Viking: 20 damage an attack, so Brood Lords won't last long.
+
+2. Battlecruiser: Yamato Cannon for a free and fun kill.
+
+3. Raven: Their Broodling Strikes will be countered by the drone.
+
+Counter as Protoss: 
+1. Void Ray: Lots of hp and they can't target air = free beam charge.
+
+2. Carrier: Incredibly effective since its THE carrier.
+
+3. Phoenix: Not so great as the void ray, but still a good anti air.
+
+
+------------------------------------------------------------------------------
+7. Q&A
+------------------------------------------------------------------------------
+
+Q: I can't seem to find an use for the EMP, I find it quite useless...
+A: The EMP has many great uses for example against Protoss.
+   It removes 100 shield if hit by the EMP and losing shield = bad for protoss
+   Another good use is against units like Mothership.
+   1 EMP and all energy is gone, disabling the skills.
+
+Q: Why do you prefer shooting the interceptors instead of instantly targetting
+   Carrier?
+A: There are many changes brought to the Carrier and one of the noticed ones
+   is that the Interceptors no longer heal themself if they get back to the
+   Carrier.
+   If you shoot down those interceptors first, you won't take more damage.
+
+Q: Whaha Battlecruiser only does 8 damage against enemies,
+   what a worthless unit.
+A: Not really a question, but notice the firing speed of
+   the battlecruiser is 0.23 = nearly 4 shots in 1 second.
+   Meaning in 1 second, it can do 24 DAMAGE, which is alot.
+   Also the battlecruiser has a Yamato Cannon that deals 300 damage.
+   Do you still think its worthless now?
+
+Q: Are you the one that mailed the strategy to BlackDra90n
+   about the rush strategy?
+A: Why are you asking anyway? But just to answer it, yes it was me.
+
+Q: So why is ur name the Dinokiller14?
+A: Because I am dinokiller :P someone took my name so I had
+   to add some numbers.
+
+Q: Can I add you on Starcraft 2?
+A: Sure, my ign is dinokiller. Friend code is 358
+   Just... don't piss me off :P
+
+Q: UR GIDE SUCKS BA11S I CaM DO PFETTER.
+A: I dont care if you can do better, better improve on your grammar.
+
+
+------------------------------------------------------------------------------
+This section under me is what I call the retarded questioners section.
+These mailers seem to have failen in life and lives in the shadows behind a
+computer that never seems to go off. (I figure hate mails doesn't fit here)
+------------------------------------------------------------------------------
+
+Q: What happens when you click your mouse?
+A: Go figure out yourself.
+
+Q: How do I create units?
+A: Seriously...
+
+
+------------------------------------------------------------------------------
+8. Contact
+------------------------------------------------------------------------------
+If you have anything to ask, feel free to contact me.
+Also, don't forget to add something like, Guide or GameFaq, because maybe I
+won't read it.
+
+In case you don't know my E-Mail its:
+mingcheemalcolmlok_1994_3d(at)hotmail(dot)com
+
+
+
+
+------------------------------------------------------------------------------
+9. Credits
+------------------------------------------------------------------------------
+First I like to thank the people that supported me into making this guide.
+
+And thanks to Blizzard for making this wonderful but not yet perfect game.
+
+List of people that helped me + credits:
+
+Lncredible (giving me the unit tester map since I suck with map editor)
+
+And YOU for reading this guide.
+
+
+
+
+
+
+
+
+Copyright 2010 Malcolm Lok
+
+
+The End...
+Restore Page

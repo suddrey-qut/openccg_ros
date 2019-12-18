@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+import rospy
+import json
+
+from _openccg import OpenCCG
+from _xml_parser import XMLReader
+
+from std_msgs.msg import String
+
+publisher = None
+parser = None
+
+def callback(msg):
+  result = String()
+  parses = parser.parse(msg.data)
+
+  intents = []
+
+  for parse in parses:
+    intent = XMLReader.read(parse)
+    if intent:
+      intents.append(intent.toJSON())
+        
+  result.data = json.dumps({'utterance': msg.data, 'intents': intents})
+  print(json.dumps(json.loads(result.data), indent=4, sort_keys=True))
+
+  publisher.publish(result)
+
+def main():
+  global publisher, parser
+
+  rospy.init_node('openccg')
+  parser = OpenCCG()
+  parser.connect()
+
+  rospy.Subscriber('/speech', String, callback)
+  publisher = rospy.Publisher('/parsed', String, queue_size=5)
+
+  rospy.spin()
+
+if __name__ == '__main__':
+  main()

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file contains the morph entries.
+
+Copyright (C) 2005 David Reitter and University of Edinburgh (Michael White)
+$Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
+-->
+<morph
+  name="robot"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../morph.xsd"
+>
+
+
+  <!-- ===================== Simple determiners ==================== -->
+  <entry pos="Det" word="a" macros="@sg"/>
+  <entry pos="Det" word="an" macros="@sg"/>
+  <entry pos="Det" word="the"/>
+  <entry pos="Det" word="some"/>
+  <entry pos="Det" word="this"/>
+
+  <entry pos="Pos" word="your" class="owner"/>
+  <entry pos="Pos" word="my" class="owner"/>
+  <entry pos="Pos" word="their" class="owner"/>
+  <entry pos="Pos" word="enemy" stem="enemy" class="owner" macros="@sg @sg-X"/>
+  <entry pos="Pos" word="enemies" stem="enemy" class="owner" macros="@pl @pl-X"/>
+
+
+  <!-- ===================== Conjunction ==================== -->
+  <entry pos="Conj" word="and"/>
+  <entry pos="Conj" word="or"/>
+  <entry pos="Conj" word="nor"/>
+  <entry pos="Conj" word="but"/>
+  <entry pos="Conj" word="plus"/>
+  <entry pos="Conj" word="," stem="and" />
+
+  <entry pos="Conj" word="then" stem="and" />
+
+  <entry pos="Conj" word="if" macros="@nonpersistent"/>
+
+  <entry pos="Conj" word="when" macros="@persistent" />
+  <entry pos="Conj" word="whenever" stem="when" macros="@persistent" />
+
+  <!-- ======================== Negation =========================== -->
+  <entry pos="Neg" word="not"/>
+
+  <!-- ======================== Pronouns =========================== -->
+  <entry pos="Pro" word="I" stem="pro1" class="animate-being" macros="@1st @sg @nom @sg-X"/>
+  <entry pos="Pro" word="me" stem="pro1" class="animate-being" macros="@1st @sg @acc @sg-X"/>
+  <entry pos="Pro" word="we" stem="pro1" class="animate-being" macros="@1st @pl @nom @pl-X"/>
+  <entry pos="Pro" word="us" stem="pro1" class="animate-being" macros="@1st @pl @acc @pl-X"/>
+  <entry pos="Pro" word="you" stem="pro2" class="animate-being" macros="@2nd"/>
+  <entry pos="Pro" word="she" stem="pro3f" class="animate-being" macros="@3rd @sg @nom @sg-X"/>
+  <entry pos="Pro" word="her" stem="pro3f" class="animate-being" macros="@3rd @sg @acc @sg-X"/>
+  <entry pos="Pro" word="he" stem="pro3m" class="animate-being" macros="@3rd @sg @nom @sg-X"/>
+  <entry pos="Pro" word="him" stem="pro3m" class="animate-being" macros="@3rd @sg @acc @sg-X"/>
+  <entry pos="Pro" word="they" stem="pro3n" class="animate-being" macros="@3rd @pl @nom @pl-X"/>
+  <entry pos="Pro" word="them" stem="pro3n" class="animate-being" macros="@3rd @pl @acc @pl-X"/>
+
+  <entry pos="Pro" word="it" stem="it" class="object" macros="@3rd @sg @sg-X"/>
+
+  <!-- ========================== Nouns ============================ -->
+  <entry pos="N" word="object" stem="object" class="object" macros="@sg @sg-X"/>
+  <entry pos="N" word="objects" stem="object" class="object" macros="@pl @pl-X"/>
+
+  <entry pos="N" word="ball" stem="ball" class="object" macros="@sg @sg-X"/>
+  <entry pos="N" word="balls" stem="ball" class="object" macros="@pl @pl-X"/>
+
+  <entry pos="N" word="mop" stem="mop" class="object" macros="@sg @sg-X"/>
+
+  <entry pos="N" word="box" class="storage" macros="@sg @sg-X"/>
+
+  <entry pos="N" word="table" class="surface" macros="@sg @sg-X"/>
+  <entry pos="N" word="tables" stem="table" class="surface" macros="@pl @pl-X"/>
+
+  <entry pos="N" word="counter" class="surface" macros="@sg @sg-X"/>
+  <entry pos="N" word="counters" stem="counter" class="surface" macros="@pl @pl-X"/>
+
+  <entry pos="N" word="shelf" class="surface" macros="@sg @sg-X"/>
+
+  <entry pos="N" word="ground" class="surface" macros="@sg @sg-X"/>
+  <entry pos="N" word="floor" stem="ground" class="surface" macros="@sg @sg-X"/>
+
+  <entry pos="N" word="bin" class="surface" macros="@sg @sg-X"/>
+  <entry pos="N" word="bins" stem="bin" class="surface" macros="@pl @pl-X"/>
+
+  <entry pos="N" word="kitchen" class="room" macros="@sg @sg-X"/>
+  <entry pos="N" word="storage" class="room" macros="@sg @sg-X"/>
+  <entry pos="N" word="dining" class="room" macros="@sg @sg-X"/>
+
+  <entry pos="N" word="room" class="room" macros="@sg @sg-X"/>
+  <entry pos="N" word="hall" stem="room" class="room"  macros="@sg @sg-X"/>
+
+  <entry pos="N" word="tray" class="container" macros="@sg @sg-X"/>
+  <entry pos="N" word="gripper" class="tool" macros="@sg @sg-X"/>
+  <entry pos="N" word="hand" stem="gripper" class="tool" macros="@sg @sg-X"/>
+
+  <entry pos="V" word="where" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="NP" word="belongs" macros="@sg @sg-X"/>
+
+  <entry pos="NP" word="everything" class="object" macros="@all @all-X"/>
+
+  <!-- ======================== Adjectives ========================= -->
+  <entry pos="Adj" word="red" class="colored" />
+  
+  <entry pos="Adj" word="green" class="colored" />
+  <entry pos="Adj" word="blue" class="colored"/>
+  <entry pos="Adj" word="yellow" class="colored" />
+  <entry pos="Adj" word="scarlet" class="colored"/>
+  <entry pos="Adj" word="gray" class="colored" /> -->
+
+  <entry pos="Adj" word="empty" class="state"/>
+  
+  <entry pos="Adj" word="left"/>
+  <entry pos="Adj" word="right"/>
+
+  <!-- ===================== Intensifying Adverbs ================== -->
+  <entry pos="Adv" word="very"/>
+
+  <!-- ======================= Prepositions ======================== -->
+  <entry pos="Prep" word="for"/>
+  <entry pos="Prep" word="on"/>
+  <entry pos="Prep" word="in"/>
+  <entry pos="Prep" word="to"/>
+  <entry pos="Prep" word="into"/>
+
+  <!-- ========================== Verbs ============================ -->
+  <entry pos="V" word="is" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="dance" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="absorb" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="accompany" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="accomplish" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="achieve" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="acquire" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="activate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="add" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="advance" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="afford" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="allow" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="angels" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="approach" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="aquire" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="arm" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="armor" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="armor" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="arrive" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="assault" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="assume" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="attack" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="avoid" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="back" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bait" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="base" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bay" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="beat" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="begin" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="blast" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="blink" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="block" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="blow" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bonus" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="boost" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bother" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bounce" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="break" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="breaks" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bring" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bronze" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="build" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="burn" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="burrow" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="burst" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="bust" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="buy" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="call" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="carry" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="catch" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="change" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="charge" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="chase" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="check" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="choose" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="chuck" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="claim" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="clean" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="cleanse" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="clear" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="click" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="climb" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="cloak" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="close" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="collect" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="come" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="command" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="complete" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="concentrate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="conserve" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="consider" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="construct" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="contact" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="continue" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="control" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="count" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="counter" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="cover" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="crack" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="create" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="creep" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="cripple" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="cross" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="cut" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="damage" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="dare" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="deal" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="decide" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="decimate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="defeat" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="defend" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="deploy" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="destroy" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="detect" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="die" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="disable" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="discover" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="distract" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="divide" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="do" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="dodge" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="dominate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="double" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="drag" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="drain" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="draw" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="drill" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="drop" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="earn" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="eliminate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="empty" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="encounter" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="end" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="engage" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="ensure" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="enter" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="escape" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="escort" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="evolve" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="expand" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="expect" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="explode" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="face" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="fall" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="feel" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="fend" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="fight" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="fill" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="find" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="finish" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="fire" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="fly" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="focus" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="follow" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="force" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="forget" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="free" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="freeze" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="gain" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="gather" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="generate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="get" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="give" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="go" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="grab" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="guard" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="guide" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hack" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hammer" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="handle" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="harvest" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="head" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="heal" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hear" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="help" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hinder" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hire" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hit" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hold" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hug" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hunt" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="hurry" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="ignore" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="include" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="increase" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="infest" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="intercept" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="investigate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="issue" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="join" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="jump" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="keep" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="kill" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="know" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="land" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="lead" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="learn" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="leave" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="liberate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="lift" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="list" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="listen" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="load" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="locate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="look" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="lose" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="lure" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="make" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="manage" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="match" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="maximize" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="mean" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="medivac" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="meet" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="memorize" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="mine" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="minimize" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="mop" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="morph" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="move" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="nuke" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="obtain" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="offer" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="open" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="overwhelm" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="own" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="pass" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="pay" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="pick" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="place" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="plan" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="play" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="point" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="pop" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="prepare" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="press" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="prevent" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="prioritize" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="proceed" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="produce" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="protect" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="provide" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="pull" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="put" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="queue" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="quit" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="reach" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="read" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="rebuild" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="receive" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="receive" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="record" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="recover" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="regenerate" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="reinforce" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="release" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="remain" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="remember" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="remove" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="repair" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="repeat" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="replace" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="replay" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="require" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="rescue" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="reset" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="restart" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="restock" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="retreat" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="retrieve" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="return" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="reveal" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="revive" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="run" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="rush" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="sacrifice" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="salvage" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="save" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="say" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="scout" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="seal" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="search" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="secure" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="see" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="seize" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="send" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="select" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="set" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="shoot" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="show" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="siege" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="sit" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="skip" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="slaughter" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="slow" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="sneak" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="snipe" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="spare" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="spawn" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="speed" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="spend" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="split" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="stand" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="start" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="stay" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="step" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="stick" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="stimpack" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="stop" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="storm" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="strike" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="stun" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="suck" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="support" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="survive" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="swarm" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="switch" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="take" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="talk" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="tank" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="target" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="tear" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="tell" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="throw" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="tip" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="train" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="transform" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="transport" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="treat" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="trigger" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="turn" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="unburrow" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="unlock" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="upgrade" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="use" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="utilize" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="void" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="vortex" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="wait" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="walk" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="warp" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="waste" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="watch" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="wave" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="weaken" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="win" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="wipe" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="work" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="write" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="go" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="move" stem="go" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="walk" stem="go" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="drive" stem="go" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="wheel" stem="go" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="pick" stem="pick" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="put" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="drop" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="stack" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="pack" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="unpack" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="empty" macros="@pres @non-3rd @sg"/>
+
+  <!-- Transative Verbs -->
+  <entry pos="V" word="clean" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="V" word="open" macros="@pres @non-3rd @sg"/>
+  <entry pos="V" word="close" macros="@pres @non-3rd @sg"/>
+
+  <entry pos="RB" word="up"/>
+  <entry pos="RB" word="down"/>
+  <entry pos="RB" word="away"/>
+  <entry pos="RB" word="on"/>
+  <entry pos="RB" word="in"/>
+
+  <!-- ========================== Macros =========================== -->
+  <entry pos="V" word="hear" macro="@pres @non-3rd @sg" />
+  <entry pos="V" word="see" macro="@pres @non-3rd @sg" />
+
+  <!-- ============================================================= -->
+
+  <!--
+    The macro @non-3rd supplies a syntactic number value that is
+    compatible with both @1st and @2nd, as specified in types.xml.
+  -->
+  <macro name="@1st">
+     <fs id="2" attr="pers" val="1st"/>
+  </macro>
+  <macro name="@2nd">
+     <fs id="2" attr="pers" val="2nd"/>
+  </macro>
+  <macro name="@3rd">
+     <fs id="2" attr="pers" val="3rd"/>
+  </macro>
+  <macro name="@non-3rd">
+     <fs id="2" attr="pers" val="non-3rd"/>
+  </macro>
+
+  <macro name="@nom">
+    <fs id="2" attr="case" val="nom"/>
+  </macro>
+  <macro name="@acc">
+    <fs id="2" attr="case" val="acc"/>
+  </macro>
+
+  <macro name="@sg">
+     <fs id="2">
+       <feat attr="num" val="sg"/>
+     </fs>
+  </macro>
+  <macro name="@pl">
+     <fs id="2">
+       <feat attr="num" val="pl"/>
+     </fs>
+  </macro>
+    <macro name="@all">
+     <fs id="2">
+       <feat attr="num" val="all"/>
+     </fs>
+  </macro>
+
+  <!--
+    The macros @sg-X and @pl-X add a semantic number feature on the
+    nominal head X to the LFs of nouns and pronouns
+  -->
+  <macro name="@sg-X">
+    <lf>
+      <satop nomvar="X">
+        <diamond mode="num">
+          <prop name="sg"/>
+        </diamond>
+      </satop>
+    </lf>
+  </macro>
+  <macro name="@pl-X">
+    <lf>
+      <satop nomvar="X">
+        <diamond mode="num">
+          <prop name="pl"/>
+        </diamond>
+      </satop>
+    </lf>
+  </macro>
+  <macro name="@all-X">
+    <lf>
+      <satop nomvar="X">
+        <diamond mode="num">
+          <prop name="all"/>
+        </diamond>
+      </satop>
+    </lf>
+  </macro>
+
+  <macro name="@past">
+    <lf>
+      <satop nomvar="E">
+        <diamond mode="tense">
+          <prop name="past"/>
+        </diamond>
+      </satop>
+    </lf>
+  </macro>
+
+  <macro name="@pres">
+    <lf>
+      <satop nomvar="E">
+        <diamond mode="tense">
+          <prop name="pres"/>
+        </diamond>
+      </satop>
+    </lf>
+  </macro>
+
+  <macro name="@persistent">
+    <lf>
+      <satop nomvar="E">
+        <diamond mode="persistent">
+            <prop name="true"/>
+        </diamond>
+      </satop>
+    </lf>
+  </macro>
+
+  <macro name="@nonpersistent">
+    <lf>
+      <satop nomvar="E">
+        <diamond mode="persistent">
+            <prop name="false"/>
+        </diamond>
+      </satop>
+    </lf>
+  </macro>
+
+</morph>

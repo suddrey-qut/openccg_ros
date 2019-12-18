@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+from nltk.tag import pos_tag
+from re import *
+
+words = {}
+
+for f in ['units', '1', '2', '3']:
+	raw = open(f, 'r').read()
+	# data = findall(r'=[=]+\n\s*([A-Za-z ]+)\s+\[', raw)
+
+	# for item in data:
+	# 	word = item.strip().lower().replace(' ', '_')
+	# 	print '<entry pos="N" word="' + word + '" stem="' + word + '" class="unit" macros="@sg @sg-X"/>'
+	# 	print '<entry pos="N" word="' + word + 's" stem="' + word + '" class="unit" macros="@pl @pl-X"/>'
+
+
+	for pair in pos_tag(raw.replace('+', '').replace('*', '').replace('=', '').replace('>', '').replace('<', '').replace('(', '').replace(')', '').replace('!', '').replace(',', '').replace('?', '').replace('.', '').replace('-', '').replace('\'', '').replace(':', '').lower().split()):
+		if pair[1] == 'VB' or pair[1] == 'VBP':
+			if pair[0] not in words:
+				words[pair[0]] = 0
+
+			words[pair[0]] += 1
+
+for key, value in sorted(words.iteritems(), key=lambda (k,v): (v,k)):
+    print "%s: %s" % (key, value)

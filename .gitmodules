@@ -1,0 +1,3 @@
+[submodule "openccg"]
+	path = openccg
+	url = git@bitbucket.org:suddrey_qut/openccg.git

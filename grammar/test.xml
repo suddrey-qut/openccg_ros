@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><xml>
+  <lf>
+    <satop nom="w0:action">
+      <prop name="move"/>
+      <diamond mode="tense">
+        <prop name="pres"/>
+      </diamond>
+      <diamond mode="Agent">
+        <nom name="x1:animate-being"/>
+      </diamond>
+      <diamond mode="Arg0">
+        <nom name="w1:sem-obj"/>
+        <prop name="everything"/>
+        <diamond mode="num">
+          <prop name="all"/>
+        </diamond>
+      </diamond>
+      <diamond mode="Arg1">
+        <nom name="w5:phys-obj"/>
+        <prop name="belongs"/>
+        <diamond mode="tense">
+          <prop name="pres"/>
+        </diamond>
+        <diamond mode="Arg0">
+          <nom name="w4:thing"/>
+          <prop name="it"/>
+          <diamond mode="num">
+            <prop name="sg"/>
+          </diamond>
+        </diamond>
+        <diamond mode="Arg1">
+          <nom name="w3:sem-obj"/>
+          <prop name="where"/>
+          <diamond mode="num">
+            <prop name="sg"/>
+          </diamond>
+        </diamond>
+      </diamond>
+    </satop>
+  </lf>
+  <target>move everything to where it belongs</target>
+</xml>
