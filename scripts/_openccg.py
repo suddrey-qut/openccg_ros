@@ -3,10 +3,11 @@ import os
 import subprocess
 import rospkg
 
-import xml.etree.ElementTree as ET
-
 class OpenCCG:
   def __init__(self, grammar=None):
+
+    self.process = None
+
     rospack = rospkg.RosPack()
     pkg_path = rospack.get_path('openccg_ros')
 
@@ -18,8 +19,10 @@ class OpenCCG:
       java_path = subprocess.check_output(['whereis', '-b', 'javac']).split()[1]
       self.my_env['JAVA_HOME'] = os.path.dirname(os.path.dirname(java_path))
 
-    self.grammar = os.path.join(pkg_path, 'grammar/grammar.xml')
-    self.process = None
+    if not grammar:
+      raise Exception('Missing parameter: grammar')
+    
+    self.grammar = grammar
 
   def __del__(self):
     if self.process:
@@ -39,8 +42,8 @@ class OpenCCG:
       raise Exception('OpenCCG.parse called before connect')
     self.process.stdin.write('{}\n'.format(text))
     result = self.process.stdout.readline()
-    print(result)
-    return [ET.fromstring(node.strip())
+    
+    return [node.strip()
             for node in [child + '</xml>'
               for child in result.split('</xml>')[:-1]]]
 
