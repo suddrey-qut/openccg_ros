@@ -23,9 +23,8 @@ def callback(msg):
     intent = XMLReader.read(ET.fromstring(parse))
     if intent:
       intents.append(intent.toJSON())
-        
+
   result.data = json.dumps({'utterance': msg.data, 'intents': intents, 'parses': parses})
-  print(json.dumps(json.loads(result.data), indent=4, sort_keys=True))
 
   publisher.publish(result)
 
@@ -34,7 +33,7 @@ def main():
     global publisher, parser
 
     rospy.init_node('openccg')
-    
+
     parser = OpenCCG(rospy.get_param('~grammar', None))
     parser.connect()
 
