@@ -1,7 +1,8 @@
-
 import os
 import subprocess
 import rospkg
+
+from lxml import etree
 
 class OpenCCG:
   def __init__(self, grammar=None):
@@ -23,6 +24,7 @@ class OpenCCG:
       raise Exception('Missing parameter: grammar')
     
     self.grammar = grammar
+    self.etree_parser = etree.XMLParser(remove_blank_text=True)
 
   def __del__(self):
     if self.process:
@@ -43,9 +45,9 @@ class OpenCCG:
     self.process.stdin.write('{}\n'.format(text))
     result = self.process.stdout.readline()
     
-    return [node.strip()
-            for node in [child + '</xml>'
-              for child in result.split('</xml>')[:-1]]]
+    return [etree.tostring(etree.XML(node.strip(), parser=self.etree_parser))
+              for node in [child + '</xml>'
+                for child in result.split('</xml>')[:-1]]]
 
   def __enter__(self):
     self.connect()

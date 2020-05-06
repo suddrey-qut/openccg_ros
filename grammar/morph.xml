@@ -487,6 +487,14 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   <entry pos="RB" word="on"/>
   <entry pos="RB" word="in"/>
 
+  <entry word="[*NUM*]" class="num" pos="Num" macros="@pl"/>
+  <entry word="one" class="num" pos="Num" macros="@sg"/>
+  <entry word="1" class="num" pos="Num" macros="@sg"/>
+  <entry word="several" class="num" pos="Num" macros="@pl"/>
+  <entry word="two" class="num" pos="Num" macros="@pl"/>
+  <entry word="three" class="num" pos="Num" macros="@pl"/>
+  <entry word="four" class="num" pos="Num" macros="@pl"/>
+  <entry word="five" class="num" pos="Num" macros="@pl"/>
   <!-- ========================== Macros =========================== -->
   <entry pos="V" word="hear" macro="@pres @non-3rd @sg" />
   <entry pos="V" word="see" macro="@pres @non-3rd @sg" />

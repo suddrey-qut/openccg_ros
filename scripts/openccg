@@ -7,6 +7,7 @@ from _openccg import OpenCCG
 from _xml_parser import XMLReader
 
 from std_msgs.msg import String
+from openccg_ros.msg import Parses
 
 import xml.etree.ElementTree as ET
 
@@ -14,18 +15,10 @@ publisher = None
 parser = None
 
 def callback(msg):
-  result = String()
-  parses = parser.parse(msg.data)
+  result = Parses()
 
-  intents = []
-
-  for parse in parses:
-    intent = XMLReader.read(ET.fromstring(parse))
-    if intent:
-      intents.append(intent.toJSON())
-
-  result.data = json.dumps({'utterance': msg.data, 'intents': intents, 'parses': parses})
-
+  result.utterance = msg.data
+  result.parses = parser.parse(msg.data)
   publisher.publish(result)
 
 def main():
@@ -38,7 +31,7 @@ def main():
     parser.connect()
 
     rospy.Subscriber('/speech', String, callback)
-    publisher = rospy.Publisher('/speech/parses', String, queue_size=5)
+    publisher = rospy.Publisher('/speech/parses', Parses, queue_size=5)
 
     rospy.spin()
 
