@@ -3,18 +3,12 @@ import sys
 import rospy
 import json
 
-from _openccg import OpenCCG
-from _xml_parser import XMLReader
+from openccg import OpenCCG
 
 from std_msgs.msg import String
 from openccg_ros.msg import Parses
 
-import xml.etree.ElementTree as ET
-
-publisher = None
-parser = None
-
-def callback(msg):
+def callback(msg, parser, publisher):
   result = Parses()
 
   result.utterance = msg.data
@@ -30,8 +24,9 @@ def main():
     parser = OpenCCG(rospy.get_param('~grammar', None))
     parser.connect()
 
-    rospy.Subscriber('/speech', String, callback)
     publisher = rospy.Publisher('/speech/parses', Parses, queue_size=5)
+
+    rospy.Subscriber('/speech', String, callback, callback_args=(parser, publisher))
 
     rospy.spin()
 
