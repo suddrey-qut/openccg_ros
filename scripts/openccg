@@ -8,7 +8,9 @@ from openccg import OpenCCG
 from std_msgs.msg import String
 from openccg_ros.msg import Parses
 
-def callback(msg, parser, publisher):
+def callback(msg, args):
+  parser, publisher = args
+  
   result = Parses()
 
   result.utterance = msg.data
@@ -17,8 +19,6 @@ def callback(msg, parser, publisher):
 
 def main():
   try:
-    global publisher, parser
-
     rospy.init_node('openccg')
 
     parser = OpenCCG(rospy.get_param('~grammar', None))
