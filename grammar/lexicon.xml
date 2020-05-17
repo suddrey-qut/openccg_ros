@@ -157,7 +157,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
     <member stem="belongs"/>
   </family>
 
-    <family name="Num" pos="Num">
+  <family name="Num" pos="Num">
     <entry name="Primary">
       <atomcat type="num">
         <fs id="2">
@@ -1605,5 +1605,26 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
       </complexcat>
     </entry>
     <member stem="and"/>
+  </family>
+  <family name="Duration" pos="Time">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="duration">
+          <fs inheritsFrom="2">
+            <feat attr="mod-index">
+              <lf><nomvar name="M"/></lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <lf>
+          <satop nomvar="Y:duration">
+            <diamond mode="amount">
+              <nomvar name="X:num"/>
+              <prop name="[*DEFAULT*]"/>
+            </diamond>
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
   </family>
 </ccg-lexicon>

@@ -11,6 +11,9 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   xsi:noNamespaceSchemaLocation="../morph.xsd"
 >
 
+  <!-- ========================= Duration ========================== -->
+  <entry pos="Time" word="minute" macro="@sg"/>
+  <entry pos="Time" word="minutes" stem="minute" macro="@pl"/>
 
   <!-- ===================== Simple determiners ==================== -->
   <entry pos="Det" word="a" macros="@sg"/>
@@ -108,7 +111,9 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   <entry pos="Adj" word="blue" class="colored"/>
   <entry pos="Adj" word="yellow" class="colored" />
   <entry pos="Adj" word="scarlet" class="colored"/>
-  <entry pos="Adj" word="gray" class="colored" /> -->
+  <entry pos="Adj" word="gray" class="colored" />
+
+  <entry pos="Adj" word="big" class="state"/>
 
   <entry pos="Adj" word="empty" class="state"/>
   
@@ -488,13 +493,13 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   <entry pos="RB" word="in"/>
 
   <entry word="[*NUM*]" class="num" pos="Num" macros="@pl"/>
-  <entry word="one" class="num" pos="Num" macros="@sg"/>
+  <!-- <entry word="one" class="num" pos="Num" macros="@sg"/>
   <entry word="1" class="num" pos="Num" macros="@sg"/>
   <entry word="several" class="num" pos="Num" macros="@pl"/>
   <entry word="two" class="num" pos="Num" macros="@pl"/>
   <entry word="three" class="num" pos="Num" macros="@pl"/>
   <entry word="four" class="num" pos="Num" macros="@pl"/>
-  <entry word="five" class="num" pos="Num" macros="@pl"/>
+  <entry word="five" class="num" pos="Num" macros="@pl"/> -->
   <!-- ========================== Macros =========================== -->
   <entry pos="V" word="hear" macro="@pres @non-3rd @sg" />
   <entry pos="V" word="see" macro="@pres @non-3rd @sg" />

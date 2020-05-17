@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE doc [
+  <!ENTITY core SYSTEM "lexicon_core.xml">
+  <!ENTITY verbs SYSTEM "lexicon_verbs.xml">
+]>
+<!--
+This file contains the lexical families.
+
+Copyright (C) 2005 David Reitter and University of Edinburgh (Michael White)
+$Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
+-->
+<ccg-lexicon
+  name="robot"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../lexicon.xsd"
+>
+
+  <!-- ==================== The "Noun" family ===================== -->
+  <!--
+       Each noun has part of speech ("pos") N, atomic category n, a
+       number attribute, and an index term X that links it to its
+       meaning.
+
+       The feature structure is labeled with id="2", which is referenced
+       by the macros in morph.xml.
+
+       The meaning is @X:sem-obj([*DEFAULT*]), where the word's
+       predicate (typically just the stem) is substituted for
+       [*DEFAULT*].  The nominal X is specified to be of type sem-obj,
+       the root of the semantic hierarchy in types.xml.
+
+       There is just one type of category (the "Primary" category). This
+       is an open class.
+  -->
+  
+
+  <family name="Prepositions" pos="Prep">
+    <entry name="particle">
+      <atomcat type="prep">
+        <fs id="2">
+          <feat attr="index">
+            <lf><nomvar name="X" /></lf>
+          </feat>
+        </fs>
+        <lf>
+          <satop nomvar="X">
+            <prop name="[*DEFAULT*]" />
+          </satop>
+        </lf>
+      </atomcat>
+    </entry>
+    <entry name="prepositional">
+      <complexcat>
+        <atomcat type="np">
+          <fs inheritsFrom="2" />
+        </atomcat>
+        <slash dir="\" rule="." />
+        <atomcat type="np">
+          <fs id="2">
+            <feat attr="case" val="acc"/>
+            <feat attr="index">
+              <lf>
+                <nomvar name="X" />
+              </lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <slash dir="/" rule="." />
+        <atomcat type="np">
+          <fs id="3">
+            <feat attr="case" val="acc"/>
+            <feat attr="index">
+              <lf>
+                <nomvar name="Y" />
+              </lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <lf>
+          <satop nomvar="X:sem-obj">
+            <prop name="[*DEFAULT*]"/>
+            <diamond mode="preposition">
+              <nomvar name="Y:sem-obj" />
+            </diamond>
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
+    <entry name="phrasal">
+      <complexcat>
+        <atomcat type="prep">
+          <fs inheritsFrom="2">
+            <feat attr="index">
+              <lf>
+              <nomvar name="X" />
+            </lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <slash dir="/" mode="*" />
+        <atomcat type="prep">
+          <fs id="2">
+            <feat attr="index">
+              <lf>
+                <nomvar name="Y" />
+              </lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <lf>
+          <satop nomvar="X">
+            <prop name="[*DEFAULT*]" />
+            <diamond mode="preposition">
+              <nomvar name="Y" />
+            </diamond>
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
+  </family>
+
+  &core;
+  &verbs;
+
+  <family name="Conjunction" pos="Conj">
+    <entry name="NP\NP/NP">
+      <complexcat>
+        <atomcat type="np">
+          <fs>
+            <feat attr="index">
+              <lf><nomvar name="X_0" /></lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <slash dir="\" mode="*" />
+        <complexcat>
+          <atomcat type="np">
+            <fs>
+              <feat attr="index">
+                <lf><nomvar name="X_1" /></lf>
+              </feat>
+            </fs>
+          </atomcat>
+          <dollar name="1"/>
+        </complexcat>
+        <slash dir="/" mode="*" />
+        <complexcat>
+          <atomcat type="np">
+            <fs>
+              <feat attr="index">
+                <lf><nomvar name="X_2" /></lf>
+              </feat>
+            </fs>
+          </atomcat>
+          <dollar name="1"/>
+        </complexcat>
+        <lf>
+          <satop nomvar="X_0:conjunction">
+            <prop name="[*DEFAULT*]" />
+            <diamond mode="left">
+              <nomvar name="X_1" />
+            </diamond>
+            <diamond mode="right">
+              <nomvar name="X_2" />
+            </diamond>
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
+    <entry name="n/n\(n/n)">
+      <complexcat>
+        <atomcat type="n">
+          <fs inheritsFrom="2" />
+        </atomcat>
+        <slash dir="/" mode="&gt;"/>
+        <atomcat type="n">
+          <fs id="2">
+            <feat attr="index">
+              <lf>
+                <nomvar name="X"/>
+              </lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <slash mode="*" dir="/"/>
+        <complexcat>
+          <atomcat type="n">
+            <fs id="3">
+            </fs>
+          </atomcat>
+          <slash dir="/" mode="&gt;"/>
+          <atomcat type="n">
+            <fs id="3">
+              <feat attr="index">
+                <lf>
+                  <nomvar name="Y"/>
+                </lf>
+              </feat>
+            </fs>
+          </atomcat>
+        </complexcat>
+        <lf>
+          <satop nomvar="X:sem-obj">
+            <diamond mode="mod">
+              <nomvar name="Y:state" />
+            </diamond>
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
+    <entry name="Sentence">
+      <complexcat>
+        <atomcat type="s">
+          <fs>
+            <feat attr="index">
+              <lf><nomvar name="X_0" /></lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <slash dir="\" mode="*" />
+        <complexcat>
+          <atomcat type="s">
+            <fs>
+              <feat attr="index">
+                <lf><nomvar name="X_1" /></lf>
+              </feat>
+            </fs>
+          </atomcat>
+          <dollar name="1"/>
+        </complexcat>
+        <slash dir="/" mode="*" />
+        <complexcat>
+          <atomcat type="s">
+            <fs>
+              <feat attr="index">
+                <lf><nomvar name="X_2" /></lf>
+              </feat>
+            </fs>
+          </atomcat>
+          <dollar name="1" />
+        </complexcat>
+        <lf>
+          <satop nomvar="X_2:conjunction">
+            <prop name="[*DEFAULT*]" />
+            <diamond mode="left">
+              <nomvar name="X_0" />
+            </diamond>
+            <diamond mode="right">
+              <nomvar name="X_1" />
+            </diamond>
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
+  </family>
+</ccg-lexicon>
