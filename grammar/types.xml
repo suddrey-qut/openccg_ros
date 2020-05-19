@@ -30,6 +30,8 @@ $Revision: 1.1 $, $Date: 2005/01/22 12:53:35 $
   <!-- ontological sorts -->
   <type name="sem-obj"/>
     <type name="phys-obj" parents="sem-obj"/>
+    
+    <type name="conjunction" parents="phys-obj"/>
       <type name="spatial-obj" parents="phys-obj"/>
         <type name="room" parents="spatial-obj"/>
       <type name="animate-being" parents="phys-obj"/>
@@ -42,8 +44,9 @@ $Revision: 1.1 $, $Date: 2005/01/22 12:53:35 $
       <type name="change" parents="situation"/>
         <type name="action" parents="change"/>
       <type name="state" parents="situation"/>
-        <type name="colored" parents="state"/>
+        <type name="color" parents="state"/>
+        <type name="size" parents="state"/>
         <type name="owner" parents="state"/>
-    <type name="conjunction" parents="sem-obj"/>
+    <type name="preposition" parents="sem-obj"/>
 
 </types>

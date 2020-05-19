@@ -6,16 +6,9 @@ import json
 from openccg import OpenCCG
 
 from std_msgs.msg import String
+
+from openccg_ros.srv import Parse, ParseResponse
 from openccg_ros.msg import Parses
-
-def callback(msg, args):
-  parser, publisher = args
-  
-  result = Parses()
-
-  result.utterance = msg.data
-  result.parses = parser.parse(msg.data)
-  publisher.publish(result)
 
 def main():
   try:
@@ -24,9 +17,7 @@ def main():
     parser = OpenCCG(rospy.get_param('~grammar', None))
     parser.connect()
 
-    publisher = rospy.Publisher('/speech/parses', Parses, queue_size=5)
-
-    rospy.Subscriber('/speech', String, callback, callback_args=(parser, publisher))
+    rospy.Service('ccg/parse', Parse, lambda req: ParseResponse(parses=parser.parse(req.text)))
 
     rospy.spin()
 
