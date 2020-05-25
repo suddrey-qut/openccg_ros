@@ -41,17 +41,15 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   <entry pos="Conj" word="nor"/>
   <entry pos="Conj" word="but"/>
   <entry pos="Conj" word="plus"/>
-  <entry pos="Conj" word="," stem="and" />
+  <entry pos="Conj" word="," />
 
   <entry pos="Conj" word="then" stem="and" />
-
-  <entry pos="Conj" word="if" macros="@nonpersistent"/>
 
   <entry pos="Conj" word="when" macros="@persistent" />
   <entry pos="Conj" word="whenever" stem="when" macros="@persistent" />
 
   <!-- ======================== Negation =========================== -->
-  <entry pos="Neg" word="not"/>
+  <entry pos="Adverb" word="not"/>
 
   <!-- ======================== Pronouns =========================== -->
   <entry pos="Pro" word="I" stem="pro1" class="animate-being" macros="@1st @sg @nom @sg-X"/>
@@ -79,19 +77,19 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
 
   <entry pos="N" word="box" class="storage" macros="@sg @sg-X"/>
 
-  <entry pos="N" word="table" class="surface" macros="@sg @sg-X"/>
-  <entry pos="N" word="tables" stem="table" class="surface" macros="@pl @pl-X"/>
+  <entry pos="N" word="table" class="object" macros="@sg @sg-X"/>
+  <entry pos="N" word="tables" stem="table" class="object" macros="@pl @pl-X"/>
 
-  <entry pos="N" word="counter" class="surface" macros="@sg @sg-X"/>
-  <entry pos="N" word="counters" stem="counter" class="surface" macros="@pl @pl-X"/>
+  <entry pos="N" word="counter" class="object" macros="@sg @sg-X"/>
+  <entry pos="N" word="counters" stem="counter" class="object" macros="@pl @pl-X"/>
 
-  <entry pos="N" word="shelf" class="surface" macros="@sg @sg-X"/>
+  <entry pos="N" word="shelf" class="object" macros="@sg @sg-X"/>
 
-  <entry pos="N" word="ground" class="surface" macros="@sg @sg-X"/>
-  <entry pos="N" word="floor" stem="ground" class="surface" macros="@sg @sg-X"/>
+  <entry pos="N" word="ground" class="object" macros="@sg @sg-X"/>
+  <entry pos="N" word="floor" stem="ground" class="object" macros="@sg @sg-X"/>
 
-  <entry pos="N" word="bin" class="surface" macros="@sg @sg-X"/>
-  <entry pos="N" word="bins" stem="bin" class="surface" macros="@pl @pl-X"/>
+  <entry pos="N" word="bin" class="object" macros="@sg @sg-X"/>
+  <entry pos="N" word="bins" stem="bin" class="object" macros="@pl @pl-X"/>
 
   <entry pos="N" word="kitchen" class="room" macros="@sg @sg-X"/>
   <entry pos="N" word="storage" class="room" macros="@sg @sg-X"/>
@@ -128,9 +126,12 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   <!-- ===================== Intensifying Adverbs ================== -->
   <entry pos="Adv" word="very"/>
 
+  <entry pos="Conditional" word="if" />
+  <entry pos="Conditional" word="while" />
+  <entry pos="Prep" word="for" />
+
   <!-- ======================= Prepositions ======================== -->
-  <entry pos="Prep" word="for" class="preposition" />
-  <entry pos="Prep" word="while" class="preposition" />
+
   <entry pos="Prep" word="on" class="preposition" />
   <entry pos="Prep" word="up" class="preposition" />
   <entry pos="Prep" word="down" class="preposition" />
@@ -149,6 +150,7 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   <entry pos="V" word="buys" stem="buy" macros="@pres @3rd"/>
 
   <entry pos="V" word="give" macros="@pres @1st"/>
+  <entry pos="V" word="stab" macros="@pres @1st"/>
 
   <entry pos="V" word="pick" macros="@pres @1st"/>
   <entry pos="V" word="put" macros="@pres @1st"/>

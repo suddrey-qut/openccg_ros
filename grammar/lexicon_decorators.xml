@@ -8,7 +8,7 @@
         </feat>
       </fs>
     </atomcat>
-    <slash dir="\" rule="." />
+    <slash dir="\" mode="&lt;" />
     <complexcat>
       <atomcat type="s">
         <fs id="3">
@@ -17,7 +17,7 @@
           </feat>
         </fs>
       </atomcat>
-      <slash dir="\" rule="." />
+      <slash dir="\" mode="&lt;" />
       <atomcat type="np">
         <fs id="5">
           <feat attr="index">
@@ -26,7 +26,7 @@
         </fs>
       </atomcat>
     </complexcat>
-    <slash dir="/" rule="*" />
+    <slash dir="/" mode="*" />
     <atomcat type="duration">
       <fs id="4">
         <feat attr="index">
@@ -50,7 +50,7 @@
   <member stem="for" />
 </family>
 
-<family name="while_condition" pos="Prep" closed="true">
+<family name="conditional" pos="Conditional">
   <entry name="s\s/s">
     <complexcat>
     <atomcat type="s">
@@ -60,25 +60,15 @@
         </feat>
       </fs>
     </atomcat>
-    <slash dir="\" rule="." />
-    <complexcat>
-      <atomcat type="s">
-        <fs id="3">
-          <feat attr="index">
-            <lf><nomvar name="X" /></lf>
-          </feat>
-        </fs>
-      </atomcat>
-      <slash dir="\" rule="." />
-      <atomcat type="np">
-        <fs id="5">
-          <feat attr="index">
-            <lf><nomvar name="Y" /></lf>
-          </feat>
-        </fs>
-      </atomcat>
-    </complexcat>
-    <slash dir="/" rule="*" />
+    <slash dir="\" mode="&lt;" />
+    <atomcat type="s">
+      <fs id="3">
+        <feat attr="index">
+          <lf><nomvar name="X" /></lf>
+        </feat>
+      </fs>
+    </atomcat>
+    <slash dir="/" mode="&gt;" />
     <atomcat type="s">
       <fs id="4">
         <feat attr="index">
@@ -87,7 +77,7 @@
       </fs>
     </atomcat>
     <lf>
-      <satop nomvar="E:loop">
+      <satop nomvar="E:conditional">
         <prop name="[*DEFAULT*]" />
         <diamond mode="condition">
           <nomvar name="D" />
@@ -108,25 +98,21 @@
         </feat>
       </fs>
     </atomcat>
-    <slash dir="/" rule="." />
+    <slash dir="/" mode="&gt;" />
     <complexcat>
       <atomcat type="s">
+        <fs inheritsFrom="3" />
+      </atomcat>
+      <slash dir="\" mode="&lt;" />
+      <atomcat type="np">
         <fs id="3">
           <feat attr="index">
             <lf><nomvar name="X" /></lf>
           </feat>
         </fs>
       </atomcat>
-      <slash dir="\" rule="." />
-      <atomcat type="np">
-        <fs id="5">
-          <feat attr="index">
-            <lf><nomvar name="Y" /></lf>
-          </feat>
-        </fs>
-      </atomcat>
     </complexcat>
-    <slash dir="/" rule="*" />
+    <slash dir="/" mode="&gt;" />
     <atomcat type="s">
       <fs id="4">
         <feat attr="index">
@@ -135,7 +121,7 @@
       </fs>
     </atomcat>
     <lf>
-      <satop nomvar="E:loop">
+      <satop nomvar="E:conditional">
         <prop name="[*DEFAULT*]" />
         <diamond mode="condition">
           <nomvar name="D" />
@@ -147,5 +133,4 @@
     </lf>
     </complexcat>
   </entry>
-  <member stem="while" />
 </family>

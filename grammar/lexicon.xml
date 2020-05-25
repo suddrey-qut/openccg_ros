@@ -37,7 +37,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
 
   <family name="Prepositions" pos="Prep" closed="true" indexRel="preposition">
     <entry name="particle">
-      <atomcat type="prep">
+      <atomcat type="in">
         <fs id="2">
           <feat attr="index">
             <lf><nomvar name="X" /></lf>
@@ -50,7 +50,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
         </lf>
       </atomcat>
     </entry>
-    <entry name="prepositional">
+    <entry name="s\np/np">
       <complexcat>
         <atomcat type="np">
           <fs id="2">
@@ -59,7 +59,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
             </lf>
           </fs>
         </atomcat>
-        <slash dir="\" rule="." />
+        <slash dir="\" mode="&lt;" />
         <atomcat type="np">
           <fs id="2">
             <feat attr="index">
@@ -69,7 +69,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
             </feat>
           </fs>
         </atomcat>
-        <slash dir="/" rule="." />
+        <slash dir="/" mode="&gt;" />
         <atomcat type="np">
           <fs id="3">
             <feat attr="case" val="acc"/>
@@ -84,15 +84,38 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
           <satop nomvar="X:sem-obj">
             <diamond mode="relation">
               <nomvar name="Y" />
-              
               <diamond mode="predicate">
                 <prop name="[*DEFAULT*]"/>
               </diamond>
-              <!-- <prop name="[*DEFAULT*]"/>
-              
             </diamond>
-            <diamond mode="arg0">              
-               -->
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
+    <entry name="pp/np">
+      <complexcat>
+        <atomcat type="pp">
+          <fs inheritsFrom="2">
+            <lf>
+                <nomvar name="Z" />
+            </lf>
+          </fs>
+        </atomcat>
+        <slash dir="/" mode="&gt;" />
+        <atomcat type="np">
+          <fs id="2">
+            <feat attr="case" val="acc"/>
+            <feat attr="index">
+              <lf>
+                <nomvar name="X" />
+              </lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <lf>
+          <satop nomvar="X:sem-obj">
+            <diamond mode="predicate">
+              <prop name="[*DEFAULT*]"/>
             </diamond>
           </satop>
         </lf>
@@ -100,7 +123,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
     </entry>
     <entry name="phrasal">
       <complexcat>
-        <atomcat type="prep">
+        <atomcat type="in">
           <fs inheritsFrom="2">
             <feat attr="index">
               <lf>
@@ -110,7 +133,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
           </fs>
         </atomcat>
         <slash dir="/" mode="*" />
-        <atomcat type="prep">
+        <atomcat type="in">
           <fs id="2">
             <feat attr="index">
               <lf>
@@ -220,14 +243,14 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
         </complexcat>
         <lf>
           <satop nomvar="X:sem-obj">
-            <diamond mode="mod">
+            <diamond mode="attr">
               <nomvar name="Y:state" />
             </diamond>
           </satop>
         </lf>
       </complexcat>
     </entry>
-    <entry name="s$1\s$1/s$1"> <!-- pick up the red ball and pick up the blue ball -->
+    <entry name="s\s$1/s$1"> <!-- pick up the red ball and pick up the blue ball -->
       <complexcat>
         <atomcat type="s">
           <fs>
@@ -258,6 +281,47 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
           </atomcat>
           <dollar name="1" />
         </complexcat>
+        <lf>
+          <satop nomvar="C:conjunction">
+            <prop name="[*DEFAULT*]" />
+            <diamond mode="left">
+              <nomvar name="Y" />
+            </diamond>
+            <diamond mode="right">
+              <nomvar name="Z" />
+            </diamond>
+          </satop>
+        </lf>
+      </complexcat>
+    </entry>
+    <entry name="s\s$1/s"> <!-- pick up the red ball and pick up the blue ball -->
+      <complexcat>
+        <atomcat type="s">
+          <fs>
+            <feat attr="index">
+              <lf><nomvar name="C" /></lf>
+            </feat>
+          </fs>
+        </atomcat>
+        <slash dir="\" mode="*" />
+        <complexcat>
+          <atomcat type="s">
+            <fs>
+              <feat attr="index">
+                <lf><nomvar name="Y" /></lf>
+              </feat>
+            </fs>
+          </atomcat>
+          <dollar name="1"/>
+        </complexcat>
+        <slash dir="/" mode="*" />
+        <atomcat type="s">
+          <fs>
+            <feat attr="index">
+              <lf><nomvar name="Z" /></lf>
+            </feat>
+          </fs>
+        </atomcat>
         <lf>
           <satop nomvar="C:conjunction">
             <prop name="[*DEFAULT*]" />

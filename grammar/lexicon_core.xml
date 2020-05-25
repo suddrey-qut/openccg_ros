@@ -1,5 +1,5 @@
 <family name="Noun" pos="N">
-  <entry name="Primary">
+  <entry name="n">
     <atomcat type="n">
       <fs id="2">
         <feat attr="num">
@@ -33,6 +33,23 @@
   </entry>
 </family>
 
+<family name="Adverb" pos="Adverb">
+  <entry name="rb">
+    <atomcat type="rb">
+      <fs id="2">
+        <feat attr="index">
+          <lf><nomvar name="X" /></lf>
+        </feat>
+      </fs>
+      <lf>
+        <satop nomvar="X:modifier">
+          <prop name="[*DEFAULT*]" />
+        </satop>
+      </lf>
+    </atomcat>
+  </entry>
+</family>
+
 <family name="Pronoun" pos="Pro">
   <entry name="primary">
     <atomcat type="np">
@@ -58,7 +75,7 @@
 
 <family name="Adjective" pos="Adj">
   <entry name="stand-alone">
-    <atomcat type="adj">
+    <atomcat type="jj">
       <fs id="2">
         <feat attr="num">
           <featvar name="NUM"/>
@@ -85,7 +102,7 @@
             </feat>
           </fs>
         </atomcat>
-        <slash dir="/" rule="^" />
+        <slash dir="/" mode="^" />
         <atomcat type="n">
           <fs id="2">
             <feat attr="index">
@@ -95,7 +112,7 @@
         </atomcat>
         <lf>
           <satop nomvar="X:sem-obj">
-            <diamond mode="mod">
+            <diamond mode="attr">
               <nomvar name="M:state" />
               <prop name="[*DEFAULT*]" />
             </diamond>
@@ -172,7 +189,7 @@
             </feat>
           </fs>
         </atomcat>
-        <slash dir="\" rule="*" />
+        <slash dir="\" mode="*" />
         <atomcat type="num">
           <fs id="3">
             <feat attr="index">
