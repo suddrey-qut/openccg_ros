@@ -35,7 +35,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
   -->
   
 
-  <family name="Prepositions" pos="Prep" closed="true" indexRel="preposition">
+  <family name="Preposition-Particle" pos="Prep" closed="true" indexRel="preposition">
     <entry name="particle">
       <atomcat type="in">
         <fs id="2">
@@ -50,6 +50,15 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
         </lf>
       </atomcat>
     </entry>
+    <member stem="on"/>
+    <member stem="up"/>
+    <member stem="down"/>
+    <member stem="in"/>
+    <member stem="to"/>
+    <member stem="into"/>
+  </family>
+
+  <family name="Prepositions" pos="Prep" closed="true" indexRel="preposition">
     <entry name="s\np/np">
       <complexcat>
         <atomcat type="np">
@@ -154,10 +163,7 @@ $Revision: 1.6 $, $Date: 2010/09/13 04:45:19 $
     </entry>
     <member stem="on"/>
     <member stem="up"/>
-    <member stem="down"/>
     <member stem="in"/>
-    <member stem="to"/>
-    <member stem="into"/>
   </family>
 
   &core;

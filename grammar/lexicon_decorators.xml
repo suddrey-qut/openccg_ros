@@ -51,7 +51,7 @@
 </family>
 
 <family name="conditional" pos="Conditional">
-  <entry name="s\s/s">
+  <entry name="s\s/s"> <!-- pick the ball up if it is red -->
     <complexcat>
     <atomcat type="s">
       <fs id="2">
@@ -85,11 +85,14 @@
         <diamond mode="body">
           <nomvar name="X" />
         </diamond>
+        <diamond mode="inverted">
+          <prop name="true" />
+        </diamond>
       </satop>
     </lf>
     </complexcat>
   </entry>
-  <entry name="s/s/s">
+  <entry name="s/s/s"> <!-- if the ball is red pick it up -->
     <complexcat>
     <atomcat type="s">
       <fs id="2">
@@ -128,6 +131,9 @@
         </diamond>
         <diamond mode="body">
           <nomvar name="X" />
+        </diamond>
+        <diamond mode="inverted">
+          <prop name="false" />
         </diamond>
       </satop>
     </lf>

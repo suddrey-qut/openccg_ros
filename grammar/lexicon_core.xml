@@ -122,89 +122,122 @@
     </entry>
 </family>
 
-
 <family name="Det" pos="Det" indexRel="det">
-    <entry name="Primary">
-      <complexcat>
-        <atomcat type="np">
-          <fs id="2">
-            <feat attr="pers" val="3rd"/>
-            <feat attr="index">
-              <lf>
-                <nomvar name="Z"/>
-              </lf>
-            </feat>
-          </fs>
-        </atomcat>
-        <slash dir="/" mode="^"/>
-        <atomcat type="n">
-          <fs id="2">
-            <feat attr="index">
-              <lf>
-                <nomvar name="X"/>
-              </lf>
-            </feat>
-          </fs>
-        </atomcat>
-        <lf>
-          <satop nomvar="X:sem-obj">
-            <diamond mode="det">
-              <prop name="[*DEFAULT*]"/>
-            </diamond>
-          </satop>
-        </lf>
-      </complexcat>
-    </entry>
-  </family>
-
-  <family name="Num" pos="Num">
-    <entry name="Primary">
-      <atomcat type="num">
+  <entry name="Primary">
+    <complexcat>
+      <atomcat type="np">
         <fs id="2">
-          <feat attr="num">
-            <featvar name="NUM"/>
+          <feat attr="pers" val="3rd"/>
+          <feat attr="index">
+            <lf>
+              <nomvar name="Z"/>
+            </lf>
           </feat>
+        </fs>
+      </atomcat>
+      <slash dir="/" mode="^"/>
+      <atomcat type="n">
+        <fs id="2">
           <feat attr="index">
             <lf>
               <nomvar name="X"/>
             </lf>
           </feat>
         </fs>
-        <lf>
-          <satop nomvar="X:num">
-            <prop name="[*DEFAULT*]"/>
-          </satop>
-        </lf>
       </atomcat>
-    </entry>
-  </family>
-
-  <family name="Duration" pos="Time">
-    <entry name="Primary">
-      <complexcat>
-        <atomcat type="duration">
-          <fs id="2">
-            <feat attr="index">
-              <lf><nomvar name="D"/></lf>
-            </feat>
-          </fs>
-        </atomcat>
-        <slash dir="\" mode="*" />
-        <atomcat type="num">
-          <fs id="3">
-            <feat attr="index">
-              <lf><nomvar name="X"/></lf>
-            </feat>
-          </fs>
-        </atomcat>
-        <lf>
-          <satop nomvar="D:duration">
+      <lf>
+        <satop nomvar="X:sem-obj">
+          <diamond mode="det">
             <prop name="[*DEFAULT*]"/>
-            <diamond mode="amount">
-              <nomvar name="X:num"/>
-            </diamond>
-          </satop>
-        </lf>
-      </complexcat>
-    </entry>
-  </family>
+          </diamond>
+        </satop>
+      </lf>
+    </complexcat>
+  </entry>
+</family>
+
+<family name="Posessive" pos="Pos" indexRel="owner">
+  <entry name="Primary">
+    <complexcat>
+      <atomcat type="np">
+        <fs id="2">
+          <feat attr="pers" val="3rd"/>
+          <feat attr="index">
+            <lf>
+              <nomvar name="Z"/>
+            </lf>
+          </feat>
+        </fs>
+      </atomcat>
+      <slash dir="/" mode="^"/>
+      <atomcat type="n">
+        <fs id="2">
+          <feat attr="index">
+            <lf>
+              <nomvar name="X"/>
+            </lf>
+          </feat>
+        </fs>
+      </atomcat>
+      <lf>
+        <satop nomvar="X:sem-obj">
+          <diamond mode="owner">
+            <prop name="[*DEFAULT*]"/>
+          </diamond>
+        </satop>
+      </lf>
+    </complexcat>
+  </entry>
+</family>
+
+<family name="Num" pos="Num">
+  <entry name="Primary">
+    <atomcat type="num">
+      <fs id="2">
+        <feat attr="num">
+          <featvar name="NUM"/>
+        </feat>
+        <feat attr="index">
+          <lf>
+            <nomvar name="X"/>
+          </lf>
+        </feat>
+      </fs>
+      <lf>
+        <satop nomvar="X:num">
+          <prop name="[*DEFAULT*]"/>
+        </satop>
+      </lf>
+    </atomcat>
+  </entry>
+</family>
+
+<family name="Duration" pos="Time">
+  <entry name="Primary">
+    <complexcat>
+      <atomcat type="duration">
+        <fs id="2">
+          <feat attr="index">
+            <lf><nomvar name="D"/></lf>
+          </feat>
+        </fs>
+      </atomcat>
+      <slash dir="\" mode="*" />
+      <atomcat type="num">
+        <fs id="3">
+          <feat attr="index">
+            <lf><nomvar name="X"/></lf>
+          </feat>
+        </fs>
+      </atomcat>
+      <lf>
+        <satop nomvar="D:duration">
+          <prop name="[*DEFAULT*]"/>
+          <diamond mode="amount">
+            <nomvar name="X:num"/>
+          </diamond>
+        </satop>
+      </lf>
+    </complexcat>
+  </entry>
+</family>

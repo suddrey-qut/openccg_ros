@@ -28,11 +28,9 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
   <entry pos="Det" word="some"/>
   <entry pos="Det" word="this"/>
 
-  <entry pos="Pos" word="your" class="owner"/>
-  <entry pos="Pos" word="my" class="owner"/>
-  <entry pos="Pos" word="their" class="owner"/>
-  <entry pos="Pos" word="enemy" stem="enemy" class="owner" macros="@sg @sg-X"/>
-  <entry pos="Pos" word="enemies" stem="enemy" class="owner" macros="@pl @pl-X"/>
+  <entry pos="Pos" word="your" stem="agent" class="owner"/>
+  <entry pos="Pos" word="my" stem="speaker" class="owner"/>
+  <entry pos="Pos" word="their" stem="other" class="owner"/>
 
 
   <!-- ===================== Conjunction ==================== -->
@@ -151,6 +149,11 @@ $Revision: 1.8 $, $Date: 2010/09/13 04:37:19 $
 
   <entry pos="V" word="give" macros="@pres @1st"/>
   <entry pos="V" word="stab" macros="@pres @1st"/>
+
+  <entry pos="V" word="move" macros="@pres @1st"/>
+  
+  <entry pos="V" word="open" macros="@pres @1st"/>
+  <entry pos="V" word="close" macros="@pres @1st"/>
 
   <entry pos="V" word="pick" macros="@pres @1st"/>
   <entry pos="V" word="put" macros="@pres @1st"/>

@@ -196,7 +196,7 @@
   </entry>
 </family>
 
-<family name="monotransative-verbs" pos="V" closed="true">
+<family name="monotransative-verbs" pos="V">
   <entry name="s\np/np">
     <complexcat>
       <atomcat type="s">
@@ -370,6 +370,8 @@
     </complexcat>
   </entry>
   <member stem="pick" />
+  <member stem="open" />
+  <member stem="close" />
 </family>
 
 
@@ -512,4 +514,5 @@
     </complexcat>
   </entry>
   <member stem="put" />
+  <member stem="move" />
 </family>
