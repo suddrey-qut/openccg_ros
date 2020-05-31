@@ -8,7 +8,6 @@ from openccg import OpenCCG
 from std_msgs.msg import String
 
 from openccg_ros.srv import Parse, ParseResponse
-from openccg_ros.msg import Parses
 
 def main():
   try:
