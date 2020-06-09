@@ -39,6 +39,9 @@
           <prop name="[*DEFAULT*]"/>
           <diamond mode="arg0">
             <nomvar name="X:sem-obj" />
+          </diamond>
+          <diamond mode="arg1">
+            <nomvar name="T:dummy" />
             <diamond mode="attr">
               <nomvar name="M:state" />
             </diamond>
@@ -97,11 +100,14 @@
           <prop name="[*DEFAULT*]"/>
           <diamond mode="arg0">
             <nomvar name="X:sem-obj" />
+          </diamond>
+          <diamond mode="arg1">
+            <nomvar name="T:dummy" />
             <diamond mode="mod">
               <nomvar name="R" />
-                <diamond mode="attr">
-                  <nomvar name="M:state" />
-                </diamond>
+              <diamond mode="attr">
+                <nomvar name="M:state" />
+              </diamond>
             </diamond>
           </diamond>
         </satop>

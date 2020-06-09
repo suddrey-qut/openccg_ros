@@ -83,7 +83,7 @@
           <nomvar name="D" />
         </diamond>
         <diamond mode="body">
-          <nomvar name="X" />
+          <nomvar name="X:action" />
         </diamond>
         <diamond mode="inverted">
           <prop name="true" />
