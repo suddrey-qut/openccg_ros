@@ -1,5 +1,7 @@
 <launch>
+  <arg name="grammar" />
+
   <node pkg="openccg_ros" type="openccg" name="ccg" output="screen">
-    <param name="grammar" value="$(find openccg_ros)/grammar/grammar.xml" />
+    <param name="grammar" value="$(arg grammar)" />
   </node>
 </launch>
