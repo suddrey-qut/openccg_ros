@@ -1,4 +1,6 @@
 import os
+import io
+import rospy
 import subprocess
 import rospkg
 
@@ -32,6 +34,7 @@ class OpenCCG:
 
   def connect(self):
     self.process = subprocess.Popen(['bccg', self.grammar], stdout=subprocess.PIPE, stdin=subprocess.PIPE, env=self.my_env)
+    rospy.loginfo('OpenCCG Connected')
 
   def disconnect(self):
     if self.process:
@@ -42,10 +45,13 @@ class OpenCCG:
   def parse(self, text):
     if not self.process:
       raise Exception('OpenCCG.parse called before connect')
-    self.process.stdin.write('{}\n'.format(text))
-    result = self.process.stdout.readline()
     
-    return [etree.tostring(etree.XML(node.strip(), parser=self.etree_parser))
+    self.process.stdin.write('{}\n'.format(text).encode(encoding='UTF-8'))
+    self.process.stdin.flush()
+    
+    result = self.process.stdout.readline().decode('utf-8')
+    
+    return [etree.tostring(etree.XML(node.strip().encode(encoding='UTF-8'), parser=self.etree_parser)).decode('utf-8')
               for node in [child + '</xml>'
                 for child in result.split('</xml>')[:-1]]]
 
