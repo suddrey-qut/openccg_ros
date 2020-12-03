@@ -10,19 +10,19 @@ from std_msgs.msg import String
 from openccg_ros.srv import Parse, ParseResponse
 
 def main():
-  try:
-    rospy.init_node('openccg')
+  # try:
+  rospy.init_node('openccg')
 
-    parser = OpenCCG(rospy.get_param('~grammar', None))
-    parser.connect()
+  parser = OpenCCG(rospy.get_param('~grammar', None))
+  parser.connect()
 
-    rospy.Service('ccg/parse', Parse, lambda req: ParseResponse(parses=parser.parse(req.text)))
+  rospy.Service('ccg/parse', Parse, lambda req: ParseResponse(parses=parser.parse(req.text)))
 
-    rospy.spin()
+  rospy.spin()
 
-  except Exception as e:
-    rospy.logerr(str(e))
-    sys.exit(1)
+  # except Exception as e:
+  #   rospy.logerr(str(e))
+  #   sys.exit(1)
 
 if __name__ == '__main__':
   main()
